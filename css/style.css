@@ -26,7 +26,8 @@ header::before{
     top: 0;
     right: 0;
 }
-header a{color: #fff !important;}
+header a,
+header a i{color: #fff !important;}
 .container-fluid h3 {
     position: relative;
 }
