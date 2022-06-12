@@ -45,10 +45,6 @@ header a i{color: #fff !important;}
     }
 }
 @media (max-width: 576px){
-    .headCar .carousel-item{
-        flex-direction: column;
-        align-items: flex-start!important;
-    }
     .headCar .carousel-item h5{
         margin: 1rem !important;
     }
