@@ -1,11 +1,9 @@
-let switchNum = ["one", "two", "three", "four"];
+let switchNum = ["one", "two", "three", "four", "five"];
 
 for (let i = 0; i < switchNum.length; i++){
     let swichList = document.querySelectorAll(`.switch-${switchNum[i]} li`);
     let imgs = document.querySelectorAll(`.gall-${switchNum[i]} img`);
-    console.log(swichList);
-    console.log(imgs);
-    console.log("#".repeat(10));
+
     swichList.forEach((li) => {
         li.addEventListener("click", function () {
             swichList.forEach((li) => {
