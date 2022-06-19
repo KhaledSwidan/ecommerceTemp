@@ -5,8 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
         <title>Document</title>
@@ -15,15 +14,18 @@
     <body>
 
         <header class="d-flex flex-column justify-content-between position-relative" style="height: 100vh;">
-            <div class="scial-icons position-absolute d-flex flex-column align-items-center start-0 ms-3 mt-5">
-                <a href="">
+            <div class="social-icons position-absolute d-flex flex-column align-items-center start-0 ms-2 p-1">
+                <a href="#" class="">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
-                <a class="py-2" href="">
+                <a href="#" class="my-2">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="">
+                <a href="#" class="mb-2">
                     <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#" class="">
+                    <i class="fa-solid fa-map-location-dot"></i>
                 </a>
             </div>
             <div>
@@ -59,22 +61,22 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-end align-items-center"
                             id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <ul class="navbar-nav mainSections me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                                    <a class="nav-link notdrop active" aria-current="page" href="#">الرئيسية</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">رابط 1</a>
+                                    <a class="nav-link notdrop" href="#">الأقسام</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">رابط 2</a>
+                                    <a class="nav-link notdrop" href="#">رابط 2</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link notdrop dropdown-toggle" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         قائمة 1
                                     </a>
-                                    <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDropdown">
+                                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item" href="#">رابط 1</a></li>
                                         <li><a class="dropdown-item" href="#">رابط 2</a></li>
                                         <li>
@@ -84,11 +86,11 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link notdrop dropdown-toggle" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         قائمة 2
                                     </a>
-                                    <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDropdown">
+                                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item" href="#">رابط 1</a></li>
                                         <li><a class="dropdown-item" href="#">رابط 2</a></li>
                                         <li>
@@ -98,8 +100,8 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link notdrop dropdown-toggle" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         قائمة 3
                                     </a>
                                     <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
@@ -112,7 +114,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">رابط 3</a>
+                                    <a class="nav-link notdrop" href="#">رابط 3</a>
                                 </li>
                             </ul>
                         </div>
@@ -174,7 +176,7 @@
             </div>
             <div class="container">
                 <div class="section-parts d-flex">
-                    <div id="carouselExampleControls" class="carousel slide mt-5 mb-3 w-25" data-bs-ride="carousel">
+                    <div id="carouselExampleControls1" class="carousel slide mt-5 mb-3 w-25" data-bs-ride="carousel">
                         <div class="carousel-inner secCar rounded">
                             <div class="carousel-item active bg-info">
                                 <p class="text-center m-0 py-2">القسم الأول</p>
@@ -186,18 +188,18 @@
                                 <p class="text-center m-0 py-2">القسم الثالث</p>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-                    <div id="carouselExampleControls" class="carousel slide mt-5 mb-3 w-25 mx-2"
+                    <div id="carouselExampleControls2" class="carousel slide mt-5 mb-3 w-25 mx-2"
                         data-bs-ride="carousel">
                         <div class="carousel-inner secCar rounded">
                             <div class="carousel-item active bg-info">
@@ -210,18 +212,18 @@
                                 <p class="text-center m-0 py-2">القسم الثالث</p>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-                    <div id="carouselExampleControls" class="carousel slide mt-5 mb-3 w-25" data-bs-ride="carousel">
+                    <div id="carouselExampleControls3" class="carousel slide mt-5 mb-3 w-25" data-bs-ride="carousel">
                         <div class="carousel-inner secCar rounded">
                             <div class="carousel-item active bg-info">
                                 <p class="text-center m-0 py-2">القسم الأول</p>
@@ -233,18 +235,18 @@
                                 <p class="text-center m-0 py-2">القسم الثالث</p>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-                    <div id="carouselExampleControls" class="carousel slide mt-5 mb-3 me-2 w-25"
+                    <div id="carouselExampleControls4" class="carousel slide mt-5 mb-3 me-2 w-25"
                         data-bs-ride="carousel">
                         <div class="carousel-inner secCar rounded">
                             <div class="carousel-item active bg-info">
@@ -257,12 +259,12 @@
                                 <p class="text-center m-0 py-2">القسم الثالث</p>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
@@ -282,3 +284,5 @@
     </body>
 
 </html>
+
+
