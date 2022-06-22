@@ -13,114 +13,118 @@
 
     <body>
 
-        <header class="d-flex flex-column justify-content-between position-relative" style="height: 100vh;">
-            <div class="social-icons position-absolute d-flex flex-column align-items-center start-0 ms-2 p-1">
-                <a href="#" class="">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-                <a href="#" class="my-2">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="#" class="mb-2">
-                    <i class="fa-brands fa-youtube"></i>
-                </a>
-                <a href="#" class="">
-                    <i class="fa-solid fa-map-location-dot"></i>
-                </a>
-            </div>
-            <div>
-                <div class="container">
-                    <div
-                        class="topNav d-flex justify-content-between align-items-center w-100 py-2 px-5 position-relative border-bottom">
-                        <div class="justify-content-start d-flex mb-1">
-                            <address class="mb-0 text-center">عنوان الادارة / الاسكندرية - مصر</address>
-                        </div>
-                        <div class="d-flex justify-content-end mt-1">
-                            <a href="tel:123456789">
-                                03/578499111
-                            </a>
-                            <a class="px-2" href="#">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fas fa-shopping-cart"></i>
-                            </a>
-                        </div>
+        <header class="d-flex flex-column justify-content-end position-relative" id="header" style="height: 100vh;">
+            <ul class="social-icons position-absolute d-flex flex-column align-items-center start-0 ms-2 p-1 gap-1">
+                <li>
+                    <a href="" class="d-block text-light">
+                        <i class="fa-brands fa-facebook facebook fa-xs rounded-circle p-1"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="d-block text-light">
+                        <i class="fa-brands fa-twitter fa-xs twitter rounded-circle p-1"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="d-block text-light">
+                        <i class="fa-brands fa-youtube fa-xs youtube rounded-circle p-1"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="d-block text-light">
+                        <i class="fa-solid  fa-xs fa-map-location-dot  rounded-circle p-1"></i>
+                    </a>
+                </li>
+            </ul>
+            <nav class="navbar navbar-expand-lg mb-5 fixed-top d-flex flex-column">
+                <div
+                    class="container topNav d-flex justify-content-between align-items-center w-100 py-2 px-5 position-relative border-bottom">
+                    <div class="justify-content-start d-flex mb-1">
+                        <address class="mb-0 text-center">عنوان الادارة / الاسكندرية - مصر</address>
+                    </div>
+                    <div class="d-flex justify-content-end mt-1">
+                        <a href="tel:123456789">
+                            03/578499111
+                        </a>
+                        <a class="px-2" href="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
                     </div>
                 </div>
-                <nav class="navbar navbar-expand-lg bg-transparent mb-5">
-                    <div class="container">
-                        <a class="navbar-brand d-flex flex-column align-items-center" href="#">
-                            <img src="./img/site-logo.png" alt="">
-                            أسم الصيدلية
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end align-items-center"
-                            id="navbarSupportedContent">
-                            <ul class="navbar-nav mainSections me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link notdrop active" aria-current="page" href="#">الرئيسية</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link notdrop" href="#">الأقسام</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link notdrop" href="#">رابط 2</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link notdrop dropdown-toggle" href="#" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        قائمة 1
-                                    </a>
-                                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">رابط 1</a></li>
-                                        <li><a class="dropdown-item" href="#">رابط 2</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">تعريف</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link notdrop dropdown-toggle" href="#" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        قائمة 2
-                                    </a>
-                                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">رابط 1</a></li>
-                                        <li><a class="dropdown-item" href="#">رابط 2</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">تعريف</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link notdrop dropdown-toggle" href="#" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        قائمة 3
-                                    </a>
-                                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">رابط 1</a></li>
-                                        <li><a class="dropdown-item" href="#">رابط 2</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">تعريف</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link notdrop" href="#">رابط 3</a>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="container">
+                    <a class="navbar-brand d-flex flex-column align-items-center" href="#">
+                        <img src="./img/site-logo.png" alt="">
+                        أسم الصيدلية
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end align-items-center"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav mainSections me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link notdrop active" aria-current="page" href="#header">الرئيسية</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link notdrop" href="#mainSections">الأقسام</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link notdrop" href="#">رابط 2</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link notdrop dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    قائمة 1
+                                </a>
+                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">رابط 1</a></li>
+                                    <li><a class="dropdown-item" href="#">رابط 2</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">تعريف</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link notdrop dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    قائمة 2
+                                </a>
+                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">رابط 1</a></li>
+                                    <li><a class="dropdown-item" href="#">رابط 2</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">تعريف</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link notdrop dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    قائمة 3
+                                </a>
+                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">رابط 1</a></li>
+                                    <li><a class="dropdown-item" href="#">رابط 2</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">تعريف</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link notdrop" href="#">رابط 3</a>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
             <div class="container-fluid headCar">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-indicators" style="margin: -.5rem 0 !important;">
@@ -178,14 +182,14 @@
                 <div class="section-parts d-flex">
                     <div id="carouselExampleControls1" class="carousel slide mt-5 mb-3 w-25" data-bs-ride="carousel">
                         <div class="carousel-inner secCar rounded">
-                            <div class="carousel-item active bg-info">
-                                <p class="text-center m-0 py-2">القسم الأول</p>
+                            <div class="carousel-item active" style="background-color: rgba(219, 204, 255, 0.2);">
+                                <p class="text-center m-0 py-2 text-dark">القسم الأول</p>
                             </div>
-                            <div class="carousel-item bg-danger">
-                                <p class="text-center m-0 py-2">القسم الثاني</p>
+                            <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                                <p class="text-center m-0 py-2 text-dark">القسم الثاني</p>
                             </div>
-                            <div class="carousel-item bg-primary">
-                                <p class="text-center m-0 py-2">القسم الثالث</p>
+                            <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                                <p class="text-center m-0 py-2 text-dark">القسم الثالث</p>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
@@ -202,14 +206,14 @@
                     <div id="carouselExampleControls2" class="carousel slide mt-5 mb-3 w-25 mx-2"
                         data-bs-ride="carousel">
                         <div class="carousel-inner secCar rounded">
-                            <div class="carousel-item active bg-info">
-                                <p class="text-center m-0 py-2">القسم الأول</p>
+                            <div class="carousel-item active" style="background-color: rgba(219, 204, 255, 0.2);">
+                                <p class="text-center m-0 py-2 text-dark">القسم الأول</p>
                             </div>
-                            <div class="carousel-item bg-danger">
-                                <p class="text-center m-0 py-2">القسم الثاني</p>
+                            <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                                <p class="text-center m-0 py-2 text-dark">القسم الثاني</p>
                             </div>
-                            <div class="carousel-item bg-primary">
-                                <p class="text-center m-0 py-2">القسم الثالث</p>
+                            <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                                <p class="text-center m-0 py-2 text-dark">القسم الثالث</p>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
@@ -225,14 +229,14 @@
                     </div>
                     <div id="carouselExampleControls3" class="carousel slide mt-5 mb-3 w-25" data-bs-ride="carousel">
                         <div class="carousel-inner secCar rounded">
-                            <div class="carousel-item active bg-info">
-                                <p class="text-center m-0 py-2">القسم الأول</p>
+                            <div class="carousel-item active" style="background-color: rgba(219, 204, 255, 0.2);">
+                                <p class="text-center m-0 py-2 text-dark">القسم الأول</p>
                             </div>
-                            <div class="carousel-item bg-danger">
-                                <p class="text-center m-0 py-2">القسم الثاني</p>
+                            <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                                <p class="text-center m-0 py-2 text-dark">القسم الثاني</p>
                             </div>
-                            <div class="carousel-item bg-primary">
-                                <p class="text-center m-0 py-2">القسم الثالث</p>
+                            <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                                <p class="text-center m-0 py-2 text-dark">القسم الثالث</p>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
@@ -249,14 +253,14 @@
                     <div id="carouselExampleControls4" class="carousel slide mt-5 mb-3 me-2 w-25"
                         data-bs-ride="carousel">
                         <div class="carousel-inner secCar rounded">
-                            <div class="carousel-item active bg-info">
-                                <p class="text-center m-0 py-2">القسم الأول</p>
+                            <div class="carousel-item active" style="background-color: rgba(219, 204, 255, 0.2);">
+                                <p class="text-center m-0 py-2 text-dark">القسم الأول</p>
                             </div>
-                            <div class="carousel-item bg-danger">
-                                <p class="text-center m-0 py-2">القسم الثاني</p>
+                            <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                                <p class="text-center m-0 py-2 text-dark">القسم الثاني</p>
                             </div>
-                            <div class="carousel-item bg-primary">
-                                <p class="text-center m-0 py-2">القسم الثالث</p>
+                            <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                                <p class="text-center m-0 py-2 text-dark">القسم الثالث</p>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"
@@ -274,134 +278,273 @@
             </div>
         </header>
 
-        <section class="mainSection_one my-5 py-3">
-
-            <div class="subSection subSection-one">
-                <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded">القسم الأول</h2>
-                <div class="category category-one">
-                    <ul class="switch switch-one d-flex justify-content-center align-items-center py-3">
-                        <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all1">كل الصور
-                        </li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat11">مجموعة 1</li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat12">مجموعة 2</li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat13">مجموعة 3</li>
-                    </ul>
-                    <div class="gall gall-one">
-                        <img class="all1 cat11" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all1 cat11" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all1 cat12" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all1 cat12" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all1 cat11" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all1 cat11" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all1 cat13" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                        <img class="all1 cat13" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                        <img class="all1 cat12" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all1 cat13" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+        <section class="brands px-3 py-5 text-center">
+            <div class="container">
+                <div class="main-title position-relative d-flex flex-column align-items-start mb-2">
+                    <img class="mb-4" src="img/title.png" alt="">
+                    <div class="text-end border rounded p-3">
+                        <h2>العلامات التجارية</h2>
+                        <p class="text-muted fs-5">تسوق واختار العلامة التجارية المضلة لك وتعرف على أحدث
+                            المنتجات والعروض والخصومات</p>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="box col-sm-6 col-md-4 col-lg-2 my-3" data-work="Brand 1">
+                        <img class="img-fluid rounded" src="https://picsum.photos/id/1/720/480" alt="">
+                    </div>
+                    <div class="box col-sm-6 col-md-4 col-lg-2 my-3" data-work="Brand 2">
+                        <img class="img-fluid rounded" src="https://picsum.photos/id/2/720/480" alt="">
+                    </div>
+                    <div class="box col-sm-6 col-md-4 col-lg-2 my-3" data-work="Brand 3">
+                        <img class="img-fluid rounded" src="https://picsum.photos/id/3/720/480" alt="">
+                    </div>
+                    <div class="box col-sm-6 col-md-4 col-lg-2 my-3" data-work="Brand 4">
+                        <img class="img-fluid rounded" src="https://picsum.photos/id/4/720/480" alt="">
+                    </div>
+                    <div class="box col-sm-6 col-md-4 col-lg-2 my-3" data-work="Brand 5">
+                        <img class="img-fluid rounded" src="https://picsum.photos/id/5/720/480" alt="">
+                    </div>
+                    <div class="box col-sm-6 col-md-4 col-lg-2 my-3" data-work="Brand 6">
+                        <img class="img-fluid rounded" src="https://picsum.photos/id/6/720/480" alt="">
+                    </div>
+                    <div class="box col-sm-6 col-md-4 col-lg-2 my-3" data-work="Brand 7">
+                        <img class="img-fluid rounded" src="https://picsum.photos/id/7/720/480" alt="">
+                    </div>
+                    <div class="box col-sm-6 col-md-4 col-lg-2 my-3" data-work="Brand 8">
+                        <img class="img-fluid rounded" src="https://picsum.photos/id/8/720/480" alt="">
                     </div>
                 </div>
             </div>
-
-            <div class="subSection subSection-two">
-                <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded" >القسم الثاني</h2>
-                <div class="category category-two">
-                    <ul class="switch switch-two d-flex justify-content-center align-items-center py-3">
-                        <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all2">كل الصور
-                        </li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat21">مجموعة 1</li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat22">مجموعة 2</li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat23">مجموعة 3</li>
-                    </ul>
-                    <div class="gall gall-two">
-                        <img class="all2 cat21" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all2 cat21" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all2 cat22" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all2 cat22" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all2 cat21" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all2 cat21" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all2 cat23" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                        <img class="all2 cat23" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                        <img class="all2 cat22" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all2 cat23" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                    </div>
-                </div>
-            </div>
-
-            <div class="subSection subSection-three">
-                <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded" >القسم الثالث</h2>
-                <div class="category category-three">
-                    <ul class="switch switch-three d-flex justify-content-center align-items-center py-3">
-                        <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all3">كل الصور
-                        </li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat31">مجموعة 1</li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat32">مجموعة 2</li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat33">مجموعة 3</li>
-                    </ul>
-                    <div class="gall gall-three">
-                        <img class="all3 cat31" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all3 cat31" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all3 cat32" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all3 cat32" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all3 cat31" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all3 cat31" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all3 cat33" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                        <img class="all3 cat33" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                        <img class="all3 cat32" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all3 cat33" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                    </div>
-                </div>
-            </div>
-
-            <div class="subSection subSection-four">
-                <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded" >القسم الرابع</h2>
-                <div class="category category-four">
-                    <ul class="switch switch-four d-flex justify-content-center align-items-center py-3">
-                        <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all4">كل الصور
-                        </li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat41">مجموعة 1</li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat42">مجموعة 2</li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat43">مجموعة 3</li>
-                    </ul>
-                    <div class="gall gall-four">
-                        <img class="all4 cat41" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all4 cat41" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all4 cat42" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all4 cat42" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all4 cat41" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all4 cat41" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all4 cat43" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                        <img class="all4 cat43" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                        <img class="all4 cat42" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all4 cat43" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                    </div>
-                </div>
-            </div>
-
-            <div class="subSection subSection-five">
-                <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded" >القسم الخامس</h2>
-                <div class="category category-five">
-                    <ul class="switch switch-five d-flex justify-content-center align-items-center py-3">
-                        <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all5">كل الصور
-                        </li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat51">مجموعة 1</li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat52">مجموعة 2</li>
-                        <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat53">مجموعة 3</li>
-                    </ul>
-                    <div class="gall gall-five">
-                        <img class="all5 cat51" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all5 cat51" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all5 cat52" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all5 cat52" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all5 cat51" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all5 cat51" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                        <img class="all5 cat53" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                        <img class="all5 cat53" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                        <img class="all5 cat52" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                        <img class="all5 cat53" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                    </div>
-                </div>
-            </div>
-
         </section>
+
+        <section class="mainSections my-5 position-relative">
+            <div class="container">
+                <div class="main-title position-relative d-flex flex-column align-items-start mb-4">
+                    <img class="mb-4" src="img/title.png" alt="">
+                    <div class="text-end border rounded p-3">
+                        <h2>أقسام الصيدلية</h2>
+                        <p class="text-muted fs-5">ابحث عن الأدوية الخاص بك بسهولة وسرعة</p>
+                        <div class="dropdown-center d-flex justify-content-center align-items-center">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="mainSections"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                تصفح الأقسام
+                            </button>
+                            <ul class="dropdown-menu bg-light text-end" aria-labelledby="mainSections">
+                                <li><a class="dropdown-item" href="#subSection-one">القسم الأول</a></li>
+                                <li><a class="dropdown-item" href="#subSection-two">القسم الثاني</a></li>
+                                <li><a class="dropdown-item" href="#subSection-three">القسم الثالث</a></li>
+                                <li><a class="dropdown-item" href="#subSection-four">القسم الرابع</a></li>
+                                <li><a class="dropdown-item" href="#subSection-five">القسم الخامس</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="subSection subSection-one" id="subSection-one">
+                    <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded">القسم الأول</h2>
+                    <div class="category category-one">
+                        <ul class="switch switch-one d-flex justify-content-center align-items-center py-3">
+                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all1">
+                                كل الصور
+                            </li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat11">مجموعة
+                                1</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat12">مجموعة
+                                2</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat13">مجموعة
+                                3</li>
+                        </ul>
+                        <div class="gall gall-one">
+                            <img class="all1 cat11 img-fluid" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1"
+                                alt="">
+                            <img class="all1 cat11 img-fluid" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1"
+                                alt="">
+                            <img class="all1 cat12 img-fluid" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2"
+                                alt="">
+                            <img class="all1 cat12 img-fluid" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2"
+                                alt="">
+                            <img class="all1 cat11 img-fluid" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1"
+                                alt="">
+                            <img class="all1 cat11 img-fluid" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1"
+                                alt="">
+                            <img class="all1 cat13 img-fluid" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3"
+                                alt="">
+                            <img class="all1 cat13 img-fluid" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3"
+                                alt="">
+                            <img class="all1 cat12 img-fluid" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2"
+                                alt="">
+                            <img class="all1 cat13 img-fluid" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="subSection subSection-two" id="subSection-two">
+                    <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded">القسم الثاني</h2>
+                    <div class="category category-two">
+                        <ul class="switch switch-two d-flex justify-content-center align-items-center py-3">
+                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all2">
+                                كل الصور
+                            </li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat21">مجموعة
+                                1</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat22">مجموعة
+                                2</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat23">مجموعة
+                                3</li>
+                        </ul>
+                        <div class="gall gall-two">
+                            <img class="all2 cat21" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all2 cat21" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all2 cat22" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
+                            <img class="all2 cat22" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
+                            <img class="all2 cat21" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all2 cat21" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all2 cat23" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                            <img class="all2 cat23" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                            <img class="all2 cat22" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
+                            <img class="all2 cat23" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="subSection subSection-three" id="subSection-three">
+                    <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded">القسم الثالث</h2>
+                    <div class="category category-three">
+                        <ul class="switch switch-three d-flex justify-content-center align-items-center py-3">
+                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all3">
+                                كل الصور
+                            </li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat31">مجموعة
+                                1</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat32">مجموعة
+                                2</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat33">مجموعة
+                                3</li>
+                        </ul>
+                        <div class="gall gall-three">
+                            <img class="all3 cat31" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all3 cat31" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all3 cat32" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
+                            <img class="all3 cat32" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
+                            <img class="all3 cat31" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all3 cat31" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all3 cat33" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                            <img class="all3 cat33" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                            <img class="all3 cat32" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
+                            <img class="all3 cat33" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="subSection subSection-four" id="subSection-four">
+                    <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded">القسم الرابع</h2>
+                    <div class="category category-four">
+                        <ul class="switch switch-four d-flex justify-content-center align-items-center py-3">
+                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all4">
+                                كل الصور
+                            </li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat41">مجموعة
+                                1</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat42">مجموعة
+                                2</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat43">مجموعة
+                                3</li>
+                        </ul>
+                        <div class="gall gall-four">
+                            <img class="all4 cat41" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all4 cat41" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all4 cat42" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
+                            <img class="all4 cat42" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
+                            <img class="all4 cat41" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all4 cat41" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all4 cat43" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                            <img class="all4 cat43" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                            <img class="all4 cat42" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
+                            <img class="all4 cat43" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="subSection subSection-five" id="subSection-five">
+                    <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded">القسم الخامس</h2>
+                    <div class="category category-five">
+                        <ul class="switch switch-five d-flex justify-content-center align-items-center py-3">
+                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all5">
+                                كل الصور
+                            </li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat51">مجموعة
+                                1</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat52">مجموعة
+                                2</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat53">مجموعة
+                                3</li>
+                        </ul>
+                        <div class="gall gall-five">
+                            <img class="all5 cat51" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all5 cat51" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all5 cat52" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
+                            <img class="all5 cat52" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
+                            <img class="all5 cat51" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all5 cat51" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
+                            <img class="all5 cat53" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                            <img class="all5 cat53" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                            <img class="all5 cat52" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
+                            <img class="all5 cat53" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="features text-center py-5">
+            <div class="container">
+                <div class="main-title my-5 position-relative">
+                    <img class="mb-4" src="img/title.png" alt="">
+                    <h2>We are Good at</h2>
+                    <p class="mb-4 text-muted fs-5 text-uppercase">some of these stuff under</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feat">
+                            <div class="icon-holder position-relative">
+                                <i class="fa-solid fa-1 position-absolute bottom-0 number"></i>
+                                <i class="fa-solid fa-pencil position-absolute bottom-0 fa-4x icon"></i>
+                            </div>
+                            <h4 class="my-3 text-uppercase fw-bold">Graphic Design</h4>
+                            <p class="text-muted lh-lg">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet incidunt voluptas
+                                ducimus, rerum sit distinctio magnam sequi ipsam earum ipsum labore fuga neque optio
+                                voluptatum consequatur nostrum magni perferendis reprehenderit!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feat">
+                            <div class="icon-holder position-relative">
+                                <i class="fa-solid fa-2 position-absolute bottom-0 number"></i>
+                                <i class="fa-solid fa-tv position-absolute bottom-0 fa-4x icon"></i>
+                            </div>
+                            <h4 class="my-3 text-uppercase fw-bold">Graphic Design</h4>
+                            <p class="text-muted lh-lg">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet incidunt voluptas
+                                ducimus, rerum sit distinctio magnam sequi ipsam earum ipsum labore fuga neque optio
+                                voluptatum consequatur nostrum magni perferendis reprehenderit!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feat">
+                            <div class="icon-holder position-relative">
+                                <i class="fa-solid fa-3 position-absolute bottom-0 number"></i>
+                                <i class="fa-solid fa-plug position-absolute bottom-0 fa-4x icon"></i>
+                            </div>
+                            <h4 class="my-3 text-uppercase fw-bold">Graphic Design</h4>
+                            <p class="text-muted lh-lg">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet incidunt voluptas
+                                ducimus, rerum sit distinctio magnam sequi ipsam earum ipsum labore fuga neque optio
+                                voluptatum consequatur nostrum magni perferendis reprehenderit!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
