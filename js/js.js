@@ -2,7 +2,7 @@ let switchNum = ["one", "two", "three", "four", "five"];
 
 for (let i = 0; i < switchNum.length; i++){
     let swichList = document.querySelectorAll(`.switch-${switchNum[i]} li`);
-    let imgs = document.querySelectorAll(`.gall-${switchNum[i]} img`);
+    let gallBoxs = document.querySelectorAll(`.gall-${switchNum[i]} .gallBoxy`);
 
     swichList.forEach((li) =>
     {
@@ -20,11 +20,10 @@ for (let i = 0; i < switchNum.length; i++){
         });
         li.addEventListener("click", function ()
         {
-            imgs.forEach((img) => { img.style.display = "none" });
+            gallBoxs.forEach((gallBox) => { gallBox.style.display = "none" });
             document.querySelectorAll(this.dataset.sel).forEach((e) => { e.style.display = "block" });
         });
     });
 }
-
 
 

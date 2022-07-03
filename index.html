@@ -36,7 +36,7 @@
                     </a>
                 </li>
             </ul>
-            <nav class="navbar navbar-expand-lg mb-5 fixed-top d-flex flex-column">
+            <nav class="navbar navbar-expand-lg mb-5 fixed-top d-flex flex-column pt-0">
                 <div
                     class="container topNav d-flex justify-content-between align-items-center w-100 py-2 px-5 position-relative border-bottom">
                     <div class="justify-content-start d-flex mb-1">
@@ -54,7 +54,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container secNav">
                     <a class="navbar-brand d-flex flex-column align-items-center" href="#">
                         <img src="./img/site-logo.png" alt="">
                         أسم الصيدلية
@@ -74,20 +74,22 @@
                                 <a class="nav-link notdrop" href="#mainSections">الأقسام</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link notdrop" href="#">رابط 2</a>
+                                <a class="nav-link notdrop" href="#">
+                                    رابط 2
+                                </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link notdrop dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    قائمة 1
+                                    الروشتة
                                 </a>
                                 <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">رابط 1</a></li>
-                                    <li><a class="dropdown-item" href="#">رابط 2</a></li>
+                                    <li><a class="dropdown-item text-start" href="#">روشتة عادية</a></li>
+                                    <li><a class="dropdown-item text-start" href="#">روشتة تعاقد</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">تعريف</a></li>
+                                    <li class="text-white">اطلب دوائك بسهولة</li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -126,7 +128,7 @@
                 </div>
             </nav>
             <div class="container-fluid headCar">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade mx-auto" data-bs-ride="carousel">
                     <div class="carousel-indicators" style="margin: -.5rem 0 !important;">
                         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
@@ -278,6 +280,63 @@
             </div>
         </header>
 
+        <section class="about-us text-center py-5">
+            <div class="container">
+                <div class="main-title position-relative d-flex flex-column align-items-start mb-4">
+                    <img class="mb-4" src="img/title.png" alt="">
+                    <div class="text-end border rounded p-3">
+                        <h2>تعرف علينا</h2>
+                        <p class="text-muted fs-5">تسوق واختار العلامة التجارية المضلة لك وتعرف على أحدث
+                            المنتجات والعروض والخصومات</p>
+                    </div>
+                </div>
+                <div class="row about-us_details pt-4 mt-3 justify-content-center">
+                    <div class="col-md-6 col-lg-4 mt-3">
+                        <div class="feat border-start border-end border-primary px-2">
+                            <div class="icon-holder position-relative">
+                                <i class="fa-solid fa-1 position-absolute bottom-0 number"></i>
+                                <i class="fa-solid fa-prescription position-absolute bottom-0 fa-4x icon"></i>
+                            </div>
+                            <h4 class="my-3 text-uppercase fw-bold">Graphic Design</h4>
+                            <p class="text-muted lh-lg">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet incidunt voluptas
+                                ducimus, rerum sit distinctio magnam sequi ipsam earum ipsum labore fuga neque optio
+                                voluptatum consequatur nostrum magni perferendis reprehenderit!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-3">
+                        <div class="feat border-start border-end border-primary px-2">
+                            <div class="icon-holder position-relative">
+                                <i class="fa-solid fa-2 position-absolute bottom-0 number"></i>
+                                <i class="fa-solid fa-mortar-pestle position-absolute bottom-0 fa-4x icon"></i>
+                            </div>
+                            <h4 class="my-3 text-uppercase fw-bold">Graphic Design</h4>
+                            <p class="text-muted lh-lg">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet incidunt voluptas
+                                ducimus, rerum sit distinctio magnam sequi ipsam earum ipsum labore fuga neque optio
+                                voluptatum consequatur nostrum magni perferendis reprehenderit!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-3">
+                        <div class="feat border-start border-end border-primary px-2">
+                            <div class="icon-holder position-relative">
+                                <i class="fa-solid fa-3 position-absolute bottom-0 number"></i>
+                                <i class="fa-solid fa-user-doctor position-absolute bottom-0 fa-4x icon"></i>
+                            </div>
+                            <h4 class="my-3 text-uppercase fw-bold">Graphic Design</h4>
+                            <p class="text-muted lh-lg">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet incidunt voluptas
+                                ducimus, rerum sit distinctio magnam sequi ipsam earum ipsum labore fuga neque optio
+                                voluptatum consequatur nostrum magni perferendis reprehenderit!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="brands px-3 py-5 text-center">
             <div class="container">
                 <div class="main-title position-relative d-flex flex-column align-items-start mb-2">
@@ -343,37 +402,260 @@
                     <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded">القسم الأول</h2>
                     <div class="category category-one">
                         <ul class="switch switch-one d-flex justify-content-center align-items-center py-3">
-                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all1">
-                                كل الصور
-                            </li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat11">مجموعة
-                                1</li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat12">مجموعة
-                                2</li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat13">مجموعة
-                                3</li>
+                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all1">كل الصور</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat11">مجموعة1</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat12">مجموعة2</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat13">مجموعة3</li>
                         </ul>
-                        <div class="gall gall-one">
-                            <img class="all1 cat11 img-fluid" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1"
-                                alt="">
-                            <img class="all1 cat11 img-fluid" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1"
-                                alt="">
-                            <img class="all1 cat12 img-fluid" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2"
-                                alt="">
-                            <img class="all1 cat12 img-fluid" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2"
-                                alt="">
-                            <img class="all1 cat11 img-fluid" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1"
-                                alt="">
-                            <img class="all1 cat11 img-fluid" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1"
-                                alt="">
-                            <img class="all1 cat13 img-fluid" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3"
-                                alt="">
-                            <img class="all1 cat13 img-fluid" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3"
-                                alt="">
-                            <img class="all1 cat12 img-fluid" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2"
-                                alt="">
-                            <img class="all1 cat13 img-fluid" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3"
-                                alt="">
+                        <div class="gall-one gall row">
+                                <div class="all1 cat11 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/9/720/480"
+                                        alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all1 cat11 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/10/720/480"
+                                        alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all1 cat13 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/11/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all1 cat13 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/12/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all1 cat11 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/13/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all1 cat12 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/14/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all1 cat12 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/15/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all1 cat13 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/16/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -381,27 +663,260 @@
                     <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded">القسم الثاني</h2>
                     <div class="category category-two">
                         <ul class="switch switch-two d-flex justify-content-center align-items-center py-3">
-                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all2">
-                                كل الصور
-                            </li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat21">مجموعة
-                                1</li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat22">مجموعة
-                                2</li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat23">مجموعة
-                                3</li>
+                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all2">كل الصور</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat21">مجموعة1</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat22">مجموعة2</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat23">مجموعة3</li>
                         </ul>
-                        <div class="gall gall-two">
-                            <img class="all2 cat21" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all2 cat21" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all2 cat22" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                            <img class="all2 cat22" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                            <img class="all2 cat21" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all2 cat21" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all2 cat23" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                            <img class="all2 cat23" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                            <img class="all2 cat22" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                            <img class="all2 cat23" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                        <div class="gall-two gall row">
+                                <div class="all2 cat21 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/17/720/480"
+                                        alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all2 cat21 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/18/720/480"
+                                        alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all2 cat23 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/19/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all2 cat23 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/20/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all2 cat21 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/21/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all2 cat22 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/22/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all2 cat22 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/23/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all2 cat23 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/24/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -409,27 +924,260 @@
                     <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded">القسم الثالث</h2>
                     <div class="category category-three">
                         <ul class="switch switch-three d-flex justify-content-center align-items-center py-3">
-                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all3">
-                                كل الصور
-                            </li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat31">مجموعة
-                                1</li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat32">مجموعة
-                                2</li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat33">مجموعة
-                                3</li>
+                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all3">كل الصور</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat31">مجموعة1</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat32">مجموعة2</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat33">مجموعة3</li>
                         </ul>
-                        <div class="gall gall-three">
-                            <img class="all3 cat31" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all3 cat31" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all3 cat32" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                            <img class="all3 cat32" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                            <img class="all3 cat31" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all3 cat31" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all3 cat33" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                            <img class="all3 cat33" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                            <img class="all3 cat32" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                            <img class="all3 cat33" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                        <div class="gall-three gall row">
+                                <div class="all3 cat31 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/25/720/480"
+                                        alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all3 cat31 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/26/720/480"
+                                        alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all3 cat33 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/27/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all3 cat33 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/28/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all3 cat31 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/29/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all3 cat32 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/30/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all3 cat32 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/31/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all3 cat33 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/32/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -437,27 +1185,260 @@
                     <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded">القسم الرابع</h2>
                     <div class="category category-four">
                         <ul class="switch switch-four d-flex justify-content-center align-items-center py-3">
-                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all4">
-                                كل الصور
-                            </li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat41">مجموعة
-                                1</li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat42">مجموعة
-                                2</li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat43">مجموعة
-                                3</li>
+                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all4">كل الصور</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat41">مجموعة1</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat42">مجموعة2</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat43">مجموعة3</li>
                         </ul>
-                        <div class="gall gall-four">
-                            <img class="all4 cat41" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all4 cat41" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all4 cat42" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                            <img class="all4 cat42" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                            <img class="all4 cat41" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all4 cat41" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all4 cat43" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                            <img class="all4 cat43" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                            <img class="all4 cat42" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                            <img class="all4 cat43" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                        <div class="gall-four gall row">
+                                <div class="all4 cat41 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/33/720/480"
+                                        alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all4 cat41 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/34/720/480"
+                                        alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all4 cat43 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/35/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all4 cat43 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/36/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all4 cat41 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/37/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all4 cat42 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/38/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all4 cat42 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/39/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all4 cat43 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/40/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -465,86 +1446,266 @@
                     <h2 class="py-4 px-3 my-2 d-flex mx-4 rounded">القسم الخامس</h2>
                     <div class="category category-five">
                         <ul class="switch switch-five d-flex justify-content-center align-items-center py-3">
-                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all5">
-                                كل الصور
-                            </li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat51">مجموعة
-                                1</li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat52">مجموعة
-                                2</li>
-                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat53">مجموعة
-                                3</li>
+                            <li class="active mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".all5">كل الصور</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat51">مجموعة1</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat52">مجموعة2</li>
+                            <li class="mx-2 px-3 py-1 rounded border border-1 text-center" data-sel=".cat53">مجموعة3</li>
                         </ul>
-                        <div class="gall gall-five">
-                            <img class="all5 cat51" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all5 cat51" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all5 cat52" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                            <img class="all5 cat52" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                            <img class="all5 cat51" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all5 cat51" src="https://via.placeholder.com/150/F00/FFF?text=مجموعة1" alt="">
-                            <img class="all5 cat53" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                            <img class="all5 cat53" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
-                            <img class="all5 cat52" src="https://via.placeholder.com/150/00F/FFF?text=مجموعة2" alt="">
-                            <img class="all5 cat53" src="https://via.placeholder.com/150/000/FFF?text=مجموعة3" alt="">
+                        <div class="gall-five gall row">
+                            <div class="all5 cat51 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/41/720/480"
+                                        alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="all5 cat51 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/42/720/480"
+                                        alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="all5 cat53 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/43/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="all5 cat53 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/44/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="all5 cat51 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/45/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="all5 cat52 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/46/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="all5 cat52 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/47/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="all5 cat53 gallBoxy  p-0 col-sm-4 col-md-3">
+                                    <img class="img-fluid" src="https://picsum.photos/id/48/720/480"
+                                    alt="">
+                                    <div class="gallBox-modal">
+                                        <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            تعرف على المزيد
+                                        </button>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- <section class="features text-center py-5">
-            <div class="container">
-                <div class="main-title my-5 position-relative">
-                    <img class="mb-4" src="img/title.png" alt="">
-                    <h2>We are Good at</h2>
-                    <p class="mb-4 text-muted fs-5 text-uppercase">some of these stuff under</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="feat">
-                            <div class="icon-holder position-relative">
-                                <i class="fa-solid fa-1 position-absolute bottom-0 number"></i>
-                                <i class="fa-solid fa-pencil position-absolute bottom-0 fa-4x icon"></i>
-                            </div>
-                            <h4 class="my-3 text-uppercase fw-bold">Graphic Design</h4>
-                            <p class="text-muted lh-lg">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet incidunt voluptas
-                                ducimus, rerum sit distinctio magnam sequi ipsam earum ipsum labore fuga neque optio
-                                voluptatum consequatur nostrum magni perferendis reprehenderit!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="feat">
-                            <div class="icon-holder position-relative">
-                                <i class="fa-solid fa-2 position-absolute bottom-0 number"></i>
-                                <i class="fa-solid fa-tv position-absolute bottom-0 fa-4x icon"></i>
-                            </div>
-                            <h4 class="my-3 text-uppercase fw-bold">Graphic Design</h4>
-                            <p class="text-muted lh-lg">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet incidunt voluptas
-                                ducimus, rerum sit distinctio magnam sequi ipsam earum ipsum labore fuga neque optio
-                                voluptatum consequatur nostrum magni perferendis reprehenderit!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="feat">
-                            <div class="icon-holder position-relative">
-                                <i class="fa-solid fa-3 position-absolute bottom-0 number"></i>
-                                <i class="fa-solid fa-plug position-absolute bottom-0 fa-4x icon"></i>
-                            </div>
-                            <h4 class="my-3 text-uppercase fw-bold">Graphic Design</h4>
-                            <p class="text-muted lh-lg">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet incidunt voluptas
-                                ducimus, rerum sit distinctio magnam sequi ipsam earum ipsum labore fuga neque optio
-                                voluptatum consequatur nostrum magni perferendis reprehenderit!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
