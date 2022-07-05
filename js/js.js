@@ -26,4 +26,16 @@ for (let i = 0; i < switchNum.length; i++){
     });
 }
 
-
+// select all bullets;
+let allBullets = document.querySelectorAll(".nav-bullets .bullet");
+function scrollToSomeWhere(element)
+{
+    element.forEach((ele) =>
+    {
+        ele.addEventListener("click", (e) =>
+        {
+            document.querySelector(e.target.dataset.section).scrollIntoView({ behavior: 'smooth' });
+        })
+    });
+}
+scrollToSomeWhere(allBullets);

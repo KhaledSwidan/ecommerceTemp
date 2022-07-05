@@ -13,7 +13,7 @@
 
     <body>
 
-        <header class="d-flex flex-column justify-content-end position-relative" id="header" style="height: 100vh;">
+        <header class="header d-flex flex-column justify-content-end position-relative" id="header" style="height: 100vh;">
             <ul class="social-icons position-absolute d-flex flex-column align-items-center start-0 ms-2 p-1 gap-1">
                 <li>
                     <a href="" class="d-block text-light">
@@ -280,6 +280,26 @@
             </div>
         </header>
 
+        <!-- start nav bullets -->
+        <div class="nav-bullets position-fixed top-50 end-0">
+            <div class="bullet position-relative my-2 mx-auto rounded" data-section=".header">
+                <div class="toolTip py-1 px-2 position-absolute rounded d-none text-center">الرئيسية</div>
+            </div>
+            <div class="bullet position-relative my-2 mx-auto rounded" data-section=".about-us">
+                <div class="toolTip py-1 px-2 position-absolute rounded d-none text-center">تعرف علينا</div>
+            </div>
+            <div class="bullet position-relative my-2 mx-auto rounded" data-section=".brands">
+                <div class="toolTip py-1 px-2 position-absolute rounded d-none text-center">العلامات التجارية</div>
+            </div>
+            <div class="bullet position-relative my-2 mx-auto rounded" data-section=".cdcdcd">
+                <div class="toolTip py-1 px-2 position-absolute rounded d-none text-center">أقسام الصيدلية</div>
+            </div>
+            <div class="bullet position-relative my-2 mx-auto rounded" data-section=".blog">
+                <div class="toolTip py-1 px-2 position-absolute rounded d-none text-center">المقالات الطبية</div>
+            </div>
+        </div>
+        <!-- end nav bullets -->
+
         <section class="about-us text-center py-5">
             <div class="container">
                 <div class="main-title position-relative d-flex flex-column align-items-start mb-4">
@@ -376,7 +396,7 @@
             </div>
         </section>
 
-        <section class="mainSections my-5 position-relative">
+        <section class="mainSections cdcdcd my-5 position-relative">
             <div class="container">
                 <div class="main-title position-relative d-flex flex-column align-items-start mb-4">
                     <img class="mb-4" src="img/title.png" alt="">
@@ -1703,6 +1723,80 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="features py-5">
+            <div class="container px-0">
+                <div class="row flex-wrap justify-content-center">
+                    <div class="serv col-sm-4 col-md-3 d-flex flex-column justify-content-center align-items-center border border-primary p-3 mt-3">
+                        <i class="fa-solid fa-hand-holding-medical mb-3 fs-3 fw-bold text-white"></i>
+                        <p class="text-muted fw-bold text-center">توصيل لجميع المحافظات</p>
+                    </div>
+                    <div class="serv col-sm-4 col-md-3 d-flex flex-column justify-content-center align-items-center border border-primary p-3 mt-3 mx-2">
+                        <i class="fa-solid fa-money-check-dollar mb-3 fs-3 fw-bold text-white"></i>
+                        <p class="text-muted fw-bold text-center">وسائل دفع متعددة</p>
+                    </div>
+                    <div class="serv col-sm-4 col-md-3 d-flex flex-column justify-content-center align-items-center border border-primary p-3 mt-3">
+                        <i class="fa-solid fa-cart-arrow-down mb-3 fs-3 fw-bold text-white"></i>
+                        <p class="text-muted fw-bold text-center">خصومات حصرية</p>
+                    </div>
+                    <div class="serv col-sm-4 col-md-3 d-flex flex-column justify-content-center align-items-center border border-primary p-3 mt-3 me-2">
+                        <i class="fa-solid fa-headset mb-3 fs-3 fw-bold text-white"></i>
+                        <p class="text-muted fw-bold text-center">خدمة دعم 24 ساعة</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog py-5">
+            <div class="container">
+                <div class="main-title position-relative d-flex flex-column align-items-start mb-4">
+                    <img class="mb-4" src="img/title.png" alt="">
+                    <div class="text-end border rounded p-3">
+                        <h2>المقالات الطبية</h2>
+                        <p class="text-muted fs-5">تعرف على اخر المقالات الطبية والمواضيع المتعلقة بالصحة والأدوية ومستحضرات التجميل</p>
+                    </div>
+                </div>
+                <div class="row py-4">
+                    <div class="col-md-6 col-lg-4 mt-3">
+                        <div class="card bg-white">
+                            <img src="https://picsum.photos/id/49/720/480" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">عنوان المقال</h5>
+                                <span class="text-black-50" style="font-size: .7rem;">March 5, 2022</span>
+                                <p class="card-text text-muted">تعريف بالمقال نبذة مختصرة  تعريف بالمقال نبذة مختصرة  تعريف بالمقال نبذة مختصرة </p>
+                                <a href="#" class="btn btn-primary">اعرف المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-3">
+                        <div class="card bg-white">
+                            <img src="https://picsum.photos/id/50/720/480" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">عنوان المقال</h5>
+                                <span class="text-black-50" style="font-size: .7rem;">March 5, 2022</span>
+                                <p class="card-text text-muted">تعريف بالمقال نبذة مختصرة تعريف بالمقال نبذة مختصرة تعريف بالمقال نبذة مختصرة </p>
+                                <a href="#" class="btn btn-primary">اعرف المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-3">
+                        <div class="card bg-white">
+                            <img src="https://picsum.photos/id/51/720/480" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">عنوان المقال</h5>
+                                <span class="text-black-50" style="font-size: .7rem;">March 5, 2022</span>
+                                <p class="card-text text-muted">تعريف بالمقال نبذة مختصرة  تعريف بالمقال نبذة مختصرة  تعريف بالمقال نبذة مختصرة </p>
+                                <a href="#" class="btn btn-primary">اعرف المزيد</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mt-5">
+                    <a class="btn btn-danger rounded-pill main-btn px-3" href="">المزيد من المقالات</a>
+                </div>
+            </div>
             </div>
         </section>
 
