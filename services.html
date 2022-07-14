@@ -83,7 +83,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link notdrop active text-black fw-bold" aria-current="page" href="#offers">
+                            <a class="nav-link notdrop" href="offers.html">
                                 العروض
                             </a>
                         </li>
@@ -103,13 +103,13 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link notdrop dropdown-toggle" id="navbarDropdown" role="button"
+                            <a class="nav-link notdrop dropdown-toggle active text-black fw-bold" aria-current="page"  href="#services" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 الخدمات
                             </a>
                             <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="services.html">اسأل صيدلي</a></li>
-                                <li><a class="dropdown-item" href="services.html">الطلبات الخاصة</a></li>
+                                <li><a class="dropdown-item" href="#services-one">اسأل صيدلي</a></li>
+                                <li><a class="dropdown-item" href="#services-two">الطلبات الخاصة</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -258,27 +258,70 @@
         </div>
     </header>
 
-    <section id="offers" class="offers my-5 position-relative">
+    <section id="services" class="services my-5 position-relative">
         <div class="container">
             <div class="main-title position-relative d-flex flex-column align-items-start mb-4">
                 <img class="mb-4" src="img/title.png" alt="">
                 <div class="text-end border rounded p-3">
-                    <h2>العروض والخصومات</h2>
-                    <p class="text-muted fs-5">تعرف على العروض والخصومات المتاحة</p>
+                    <h2>الخدمات والمساعدة</h2>
+                    <p class="text-muted fs-5">
+                    نحن شركاء رحلتك لحياة صحية. فريق الصيادلة مستعد دائماً لموافاتك بأهم المعلومات ومساعدتك 
+                        على تحسين صحتك والبقاء في أفضل حال. نحرص على توفير مجموعة متنوعة من منتجات الرعاية الشخصية والصحية اللازمة لتلبية احتياجات عملائنا
+                    </p>
                 </div>
             </div>
             <div class="targets">
-                <div class="offers-one">
-                    <h2 class="py-4 px-3 my-2 d-flex align-items-center mx-4 rounded">العروض</h2>
-                    <p class="text-muted">لا توجد عروض حاليا</p>
+                <div class="services-one mb-5" id="services-one">
+                    <h2 class="py-4 px-3 my-2 d-flex align-items-center mx-4 rounded">اسأل صيدلي</h2>
+                    <div class="btn-group mt-4 d-flex flex-column mx-auto w-50">
+                        <a href="mainSections.html" class="btn btn-primary rounded mb-2">تصفح الصيدلية</a>
+                        <a href="#" class="btn btn-danger rounded">تواصل مع صيدلي واتس اب</a>
+                    </div>
                 </div>
-                <div class="discounts-one">
-                    <h2 class="py-4 px-3 my-2 d-flex align-items-center mx-4 rounded">الخصومات</h2>
-                    <p class="text-muted">لا توجد خصومات حاليا</p>
+                <div class="services-two" id="services-two">
+                    <h2 class="py-4 px-3 my-2 d-flex align-items-center mx-4 rounded">الطلبات الخاصة</h2>
+                    <p class="text-muted mt-4 mb-5">يتم تسليم الطلبات الخاصة في غضون 4-6 أسابيع</p>
+                    <div class="container">
+                        <form class="row g-3 mx-5 p-3">
+                            <div class="col-md-6">
+                                <label for="inputName1" class="form-label">الاسم رباعي</label>
+                                <input type="text" class="form-control" id="inputName1" placeholder="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputMobile1" class="form-label">رقم الموبايل</label>
+                                <input type="number" class="form-control" id="inputMobile1" placeholder="">
+                            </div>
+                            <div class="col-12">
+                                <label for="inputAddress1" class="form-label">العنوان</label>
+                                <input type="text" class="form-control" id="inputAddress1" placeholder="ادخل العنوان بالتفصيل">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputCity1" class="form-label">المدينة</label>
+                                <input type="text" class="form-control" id="inputCity1">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="inputState1" class="form-label">اقرب فرع لك</label>
+                                <select id="inputState1" class="form-select">
+                                <option selected>اختار</option>
+                                <option>...</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="formFile1" class="form-label">ارسال صورة الروشتة</label>
+                                <input class="form-control" type="file" id="formFile1">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="floatingTextarea1" class="form-label">ارسل ملاحظاتك</label>
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea1"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">ادخال</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-
     </section>
 
     <section class="features py-2">

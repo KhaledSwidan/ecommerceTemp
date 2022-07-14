@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>اسم الصيدلية - الصفحة الرئيسية</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+    <header class="header d-flex flex-column justify-content-end position-relative" id="header" style="height: 100vh;">
+        <ul class="social-icons position-absolute d-flex flex-column align-items-center start-0 ms-2 p-1 gap-1">
+            <li>
+                <a href="" class="d-block text-light">
+                    <i class="fa-brands fa-facebook facebook fa-xs rounded-circle p-1"></i>
+                </a>
+            </li>
+            <li>
+                <a href="" class="d-block text-light">
+                    <i class="fa-brands fa-twitter fa-xs twitter rounded-circle p-1"></i>
+                </a>
+            </li>
+            <li>
+                <a href="" class="d-block text-light">
+                    <i class="fa-brands fa-youtube fa-xs youtube rounded-circle p-1"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="d-block text-light">
+                    <i class="fa-solid  fa-xs fa-map-location-dot  rounded-circle p-1"></i>
+                </a>
+            </li>
+        </ul>
+        <nav class="navbar navbar-expand-lg mb-5 fixed-top d-flex flex-column pt-0">
+            <div
+                class="container topNav d-flex justify-content-between align-items-center w-100 py-2 px-5 position-relative border-bottom">
+                <div class="justify-content-start d-flex">
+                    <address class="mb-0 text-center">عنوان الادارة / الاسكندرية - مصر</address>
+                </div>
+                <div class="mt-1 d-flex align-items-center flex-row-reverse">
+                    <div class="mt-2 mb-1 d-flex align-items-center">
+                        <a href="#" class="mx-2">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                        <form class="position-relative" id="content">
+                            <input type="text" name="input" class="input border-0 rounded px-1 py-2 text-white" id="search-input">
+                            <button type="reset" class="search position-absolute p-0 rounded-circle border-0" id="search-btn">
+                                <!-- <i class="fa-solid fa-xmark"></i> -->
+                            </button>
+                        </form>
+                    </div>
+                    <a href="tel:123456789">
+                        03/578499111
+                    </a>
+                </div>
+            </div>
+            <div class="container secNav">
+                <a class="navbar-brand d-flex flex-column align-items-center" href="#">
+                    <img src="./img/site-logo.png" alt="">
+                    أسم الصيدلية
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end align-items-center"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav mainSections me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link notdrop" href="index.html">
+                                الرئيسية
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link notdrop" href="mainSections.html">
+                                الصيدلية
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link notdrop" href="offers.html">
+                                العروض
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link notdrop dropdown-toggle" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                الروشتة
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-start" href="rosheta.html">روشتة عادية</a></li>
+                                <li><a class="dropdown-item text-start" href="rosheta.html">روشتة تعاقد</a></li>
+                                <li><a class="dropdown-item text-start" href="rosheta.html">ليس لدي روشتة</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="text-white">اطلب دوائك بسهولة</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link notdrop dropdown-toggle" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                الخدمات
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="services.html">اسأل صيدلي</a></li>
+                                <li><a class="dropdown-item" href="services.html">الطلبات الخاصة</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="text-white">نحو حياة صحية أفضل</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link notdrop dropdown-toggle" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                نصائح طبية
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="blog.html">الأمراض المزمنة</a></li>
+                                <li><a class="dropdown-item" href="blog.html">الأمراض الموسمية</a></li>
+                                <li><a class="dropdown-item" href="blog.html">الجلدية والتجميل</a></li>
+                                <li><a class="dropdown-item" href="blog.html">الحياة اليومية</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="text-white">عن الوقاية والعلاج</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link notdrop active text-black fw-bold" aria-current="page"  href="#products">منتجاتنا</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container me-2 mb-1 headCar">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade mx-auto" data-bs-ride="carousel">
+                <div class="carousel-indicators" style="margin: -.5rem 0 !important;">
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active rounded py-3 d-flex align-items-center">
+                        <img src="img/maffi-mens-skin-care.jpg" class="d-block mx-3 my-1 rounded img-fluid w-50" alt="...">
+                        <div class="carCaption top-0 ps-4 pe-2">
+                            <h5 class="text-white pb-2">منتجات العناية بالرجل</h5>
+                            <a href="#" class="btn btn-primary d-block d-md-none mx-3">تعرف اكثر</a>
+                            <p class=" d-none d-md-block">
+                                منتجات العناية الشخصية وادوية المكملات الغذائية
+                                <br>
+                                العروض والخصومات <i class="fa-solid fa-arrow-left mt-2 pt-1"></i>
+                                <a href="#" class="btn btn-primary d-none d-md-block m-3">اضغط هنا</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item rounded py-3 d-flex align-items-center">
+                        <img src="img/202112031040-main.jpg" class="d-block mx-3 my-1 rounded img-fluid w-50" alt="...">
+                        <div class="carCaption top-0 ps-4 pe-2">
+                            <h5 class="text-white pb-2">منتجات العناية بالمرأة</h5>
+                            <a href="#" class="btn btn-primary d-block d-md-none mx-3">تعرف اكثر</a>
+                            <p class=" d-none d-md-block">
+                                منتجات العناية ومستحضرات التجميل والمكملات الغذائية
+                                <br>
+                                العروض والخصومات <i class="fa-solid fa-arrow-left mt-2 pt-1"></i>
+                                <a href="#" class="btn btn-primary d-none d-md-block m-3">اضغط هنا</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item rounded py-3 d-flex align-items-center">
+                        <img src="img/اطفال.png" class="d-block mx-3 my-1 rounded img-fluid w-50" alt="...">
+                        <div class="carCaption top-0 ps-4 pe-2">
+                            <h5 class="text-white pb-2">قسم الأطفال</h5>
+                            <a href="#" class="btn btn-primary d-block d-md-none mx-3">تعرف اكثر</a>
+                            <p class=" d-none d-md-block">
+                                منتجات العناية بالطفل ونصائح عن الرعاية الطبية والأدوية والغذاء
+                                <br>
+                                العروض والخصومات <i class="fa-solid fa-arrow-left mt-2 pt-1"></i>
+                                <a href="#" class="btn btn-primary d-none d-md-block m-3">اضغط هنا</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-parts d-flex justify-content-evenly">
+                <div id="carouselExampleControls1" class="carousel slide mt-5 mb-3 w-25" data-bs-ride="carousel">
+                    <div class="carousel-inner secCar rounded">
+                        <div class="carousel-item active" style="background-color: rgba(219, 204, 255, 0.2);">
+                            <p class="text-center m-0 py-2 text-light">عروض الصيف</p>
+                        </div>
+                        <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                            <p class="text-center m-0 py-2 text-light">احمى نفسك من كورونا</p>
+                        </div>
+                        <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                            <p class="text-center m-0 py-2 text-light">تقسيط من البنك الأهلى</p>
+                        </div>
+                    </div>
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button> -->
+                </div>
+                <div id="carouselExampleControls2" class="carousel slide mt-5 mb-3 w-25 mx-2"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner secCar rounded">
+                        <div class="carousel-item active" style="background-color: rgba(219, 204, 255, 0.2);">
+                            <p class="text-center m-0 py-2 text-light">العروض الاسبوعية</p>
+                        </div>
+                        <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                            <p class="text-center m-0 py-2 text-light">اسأل صيدلي</p>
+                        </div>
+                        <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                            <p class="text-center m-0 py-2 text-light">تتبع طلبك بسهولة</p>
+                        </div>
+                    </div>
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button> -->
+                </div>
+                <div id="carouselExampleControls3" class="carousel slide mt-5 mb-3 me-2 w-25" data-bs-ride="carousel">
+                    <div class="carousel-inner secCar rounded">
+                        <div class="carousel-item active" style="background-color: rgba(219, 204, 255, 0.2);">
+                            <p class="text-center m-0 py-2 text-light">عروض عيد الأم</p>
+                        </div>
+                        <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                            <p class="text-center m-0 py-2 text-light">لتلبية احتياجاتك الصحية</p>
+                        </div>
+                        <div class="carousel-item" style="background-color: rgba(219, 204, 255, 0.2);">
+                            <p class="text-center m-0 py-2 text-light">جمع المزيد من النقاط</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="products py-5" id="products">
+        <div class="container">
+            <div class="main-title position-relative d-flex flex-column align-items-start mb-4">
+                <img class="mb-4" src="img/title.png" alt="">
+                <div class="text-end border rounded p-3">
+                    <h2>منتجات الصيدلية</h2>
+                    <p class="text-muted fs-5">تعرف على التحضيرات والوصفات الطبية</p>
+                </div>
+            </div>
+            <div class="products-types py-4 px-3">
+                <div class="all-products d-flex justify-content-center align-items-center flex-wrap">
+                    <div class="prod product-one ms-3">
+                        <button type="button" class="btn btn-danger mb-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal-1">
+                        اسم التركيبة
+                        </button>
+                        <div class="modal fade" id="exampleModal-1" tabindex="-1"
+                        aria-labelledby="exampleModalLabel-1" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel-1">اسم التركيبة</h5>
+                                </div>
+                                <div class="modal-body">
+                                    -1 توضيح عن المنتج وشرح مبسط
+                                </div>
+                                <div class="modal-footer flex-row-reverse justify-content-between">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">اغلاق</button>
+                                    <button type="button" class="btn btn-primary">تحدث لصيدلي</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="prod product-two ms-3">
+                        <button type="button" class="btn btn-danger mb-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal-2">
+                        اسم التركيبة
+                        </button>
+                        <div class="modal fade" id="exampleModal-2" tabindex="-1"
+                        aria-labelledby="exampleModalLabel-2" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel-2">اسم التركيبة</h5>
+                                </div>
+                                <div class="modal-body">
+                                    -2 توضيح عن المنتج وشرح مبسط
+                                </div>
+                                <div class="modal-footer flex-row-reverse justify-content-between">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">اغلاق</button>
+                                    <button type="button" class="btn btn-primary">تحدث لصيدلي</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="prod product-three ms-3">
+                        <button type="button" class="btn btn-danger mb-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal-3">
+                        اسم التركيبة
+                        </button>
+                        <div class="modal fade" id="exampleModal-3" tabindex="-1"
+                        aria-labelledby="exampleModalLabel-3" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel-3">اسم التركيبة</h5>
+                                </div>
+                                <div class="modal-body">
+                                    -3 توضيح عن المنتج وشرح مبسط
+                                </div>
+                                <div class="modal-footer flex-row-reverse justify-content-between">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">اغلاق</button>
+                                    <button type="button" class="btn btn-primary">تحدث لصيدلي</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="prod product-four ms-3">
+                        <button type="button" class="btn btn-danger mb-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal-4">
+                        اسم التركيبة
+                        </button>
+                        <div class="modal fade" id="exampleModal-4" tabindex="-1"
+                        aria-labelledby="exampleModalLabel-4" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel-4">اسم التركيبة</h5>
+                                </div>
+                                <div class="modal-body">
+                                    -4 توضيح عن المنتج وشرح مبسط
+                                </div>
+                                <div class="modal-footer flex-row-reverse justify-content-between">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">اغلاق</button>
+                                    <button type="button" class="btn btn-primary">تحدث لصيدلي</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="prod product-five ms-3">
+                        <button type="button" class="btn btn-danger mb-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal-5">
+                        اسم التركيبة
+                        </button>
+                        <div class="modal fade" id="exampleModal-5" tabindex="-1"
+                        aria-labelledby="exampleModalLabel-5" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel-5">اسم التركيبة</h5>
+                                </div>
+                                <div class="modal-body">
+                                    -5 توضيح عن المنتج وشرح مبسط
+                                </div>
+                                <div class="modal-footer flex-row-reverse justify-content-between">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">اغلاق</button>
+                                    <button type="button" class="btn btn-primary">تحدث لصيدلي</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="prod product-six ms-3">
+                        <button type="button" class="btn btn-danger mb-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal-6">
+                        اسم التركيبة
+                        </button>
+                        <div class="modal fade" id="exampleModal-6" tabindex="-1"
+                        aria-labelledby="exampleModalLabel-6" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel-6">اسم التركيبة</h5>
+                                </div>
+                                <div class="modal-body">
+                                    -6 توضيح عن المنتج وشرح مبسط
+                                </div>
+                                <div class="modal-footer flex-row-reverse justify-content-between">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">اغلاق</button>
+                                    <button type="button" class="btn btn-primary">تحدث لصيدلي</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="prod product-seven ms-3">
+                        <button type="button" class="btn btn-danger mb-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal-7">
+                        اسم التركيبة
+                        </button>
+                        <div class="modal fade" id="exampleModal-7" tabindex="-1"
+                        aria-labelledby="exampleModalLabel-7" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel-7">اسم التركيبة</h5>
+                                </div>
+                                <div class="modal-body">
+                                    -7 توضيح عن المنتج وشرح مبسط
+                                </div>
+                                <div class="modal-footer flex-row-reverse justify-content-between">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">اغلاق</button>
+                                    <button type="button" class="btn btn-primary">تحدث لصيدلي</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="prod product-eight ms-3">
+                        <button type="button" class="btn btn-danger mb-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal-8">
+                        اسم التركيبة
+                        </button>
+                        <div class="modal fade" id="exampleModal-8" tabindex="-1"
+                        aria-labelledby="exampleModalLabel-8" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel-8">اسم التركيبة</h5>
+                                </div>
+                                <div class="modal-body">
+                                    -8 توضيح عن المنتج وشرح مبسط
+                                </div>
+                                <div class="modal-footer flex-row-reverse justify-content-between">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">اغلاق</button>
+                                    <button type="button" class="btn btn-primary">تحدث لصيدلي</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="prod product-nine ms-3">
+                        <button type="button" class="btn btn-danger mb-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal-9">
+                        اسم التركيبة
+                        </button>
+                        <div class="modal fade" id="exampleModal-9" tabindex="-1"
+                        aria-labelledby="exampleModalLabel-9" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel-9">اسم التركيبة</h5>
+                                </div>
+                                <div class="modal-body">
+                                    -9 توضيح عن المنتج وشرح مبسط
+                                </div>
+                                <div class="modal-footer flex-row-reverse justify-content-between">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">اغلاق</button>
+                                    <button type="button" class="btn btn-primary">تحدث لصيدلي</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="prod product-ten ms-3">
+                        <button type="button" class="btn btn-danger mb-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal-10">
+                        اسم التركيبة
+                        </button>
+                        <div class="modal fade" id="exampleModal-10" tabindex="-1"
+                        aria-labelledby="exampleModalLabel-10" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel-10">اسم التركيبة</h5>
+                                </div>
+                                <div class="modal-body">
+                                    -10 توضيح عن المنتج وشرح مبسط
+                                </div>
+                                <div class="modal-footer flex-row-reverse justify-content-between">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">اغلاق</button>
+                                    <button type="button" class="btn btn-primary">تحدث لصيدلي</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="noproduct">
+                    <button type="button" class="btn btn-primary mb-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-0">
+                    اذا لم تجد التركيبة الخاصة بك من فضلك راسلنا
+                    </button>
+                    <div class="modal fade" id="exampleModal-0" tabindex="-1"
+                    aria-labelledby="exampleModalLabel-0" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel-0">اسم التركيبة</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="inputName1" class="form-label">الاسم رباعي</label>
+                                            <input type="text" class="form-control" id="inputName1" placeholder="">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputMobile1" class="form-label">رقم الموبايل</label>
+                                            <input type="number" class="form-control" id="inputMobile1" placeholder="">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="inputAddress1" class="form-label">العنوان</label>
+                                            <input type="text" class="form-control" id="inputAddress1" placeholder="ادخل العنوان بالتفصيل">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputCity1" class="form-label">المدينة</label>
+                                            <input type="text" class="form-control" id="inputCity1">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="inputState1" class="form-label">اقرب فرع لك</label>
+                                            <select id="inputState1" class="form-select">
+                                                <option selected>اختار</option>
+                                                <option>...</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="formFile1" class="form-label">ارسال صورة الروشتة</label>
+                                            <input class="form-control" type="file" id="formFile1">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="floatingTextarea1" class="form-label">ارسل ملاحظاتك</label>
+                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea1"></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary">ادخال</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer flex-row-reverse justify-content-between">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">اغلاق</button>
+                                    <button type="button" class="btn btn-primary">تحدث لصيدلي</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="features py-2">
+    <div class="container-fluid">
+        <div class="row px-2">
+            <div class="serv col-sm-3 d-flex flex-column justify-content-center align-items-center pt-3">
+                <i class="fa-solid fa-hand-holding-medical mb-3 fs-3 fw-bold text-white"></i>
+                <p class="text-muted fw-bold text-center">توصيل لجميع المحافظات</p>
+            </div>
+            <div class="serv col-sm-3 d-flex flex-column justify-content-center align-items-center pt-3">
+                <i class="fa-solid fa-money-check-dollar mb-3 fs-3 fw-bold text-white"></i>
+                <p class="text-muted fw-bold text-center">وسائل دفع متعددة</p>
+            </div>
+            <div class="serv col-sm-3 d-flex flex-column justify-content-center align-items-center pt-3">
+                <i class="fa-solid fa-cart-arrow-down mb-3 fs-3 fw-bold text-white"></i>
+                <p class="text-muted fw-bold text-center">خصومات حصرية</p>
+            </div>
+            <div class="serv col-sm-3 d-flex flex-column justify-content-center align-items-center pt-3">
+                <i class="fa-solid fa-headset mb-3 fs-3 fw-bold text-white"></i>
+                <p class="text-muted fw-bold text-center">خدمة دعم 24 ساعة</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="footer p-5 pb-3 text-white-50 text-center text-md-start">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="info mb-5 d-flex flex-column align-items-start">
+                    <img src="img/title.png" alt="" class="img-fluid mb-4">
+                    <p class="mb-4 text-end">
+                        نبذة مختصرة عن الصيدلية نبذة مختصرة عن الصيدلية نبذة مختصرة عن الصيدلية نبذة مختصرة عن الصيدلية نبذة مختصرة عن الصيدلية نبذة مختصرة عن الصيدلية
+                    </p>
+                    <div class="copyright w-100 text-center">
+                        Created By <span class="" style="color: #fc00fc;">Bohemian Coder</span>
+                        <div>
+                            &copy; 2022 - <span class="text-warning">Medics Inc</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="links">
+                    <h5 class="text-light text-end">روابط مهمة</h5>
+                    <ul class="list-unstyled lh-lg text-end p-0">
+                        <li>ارسل الروشتة</li>
+                        <li>تتبع طلبك</li>
+                        <li>سياسة النقاط</li>
+                        <li>سياسة الشحن</li>
+                        <li>سياسة الاستخدام</li>
+                        <li>سياسة الخصوصية</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="links mb-5">
+                    <h5 class="text-light text-end">صيدلية اونلاين</h5>
+                    <ul class="list-unstyled lh-lg text-end p-0">
+                        <li>تسجيل الدخول</li>
+                        <li>تسجيل جديد</li>
+                        <li>لماذا نحن؟</li>
+                        <li>المدونة</li>
+                        <li>تواصل معنا</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="contact mt-2 d-flex flex-column align-items-center justify-content-center h-100">
+                    <a href="#" class="btn btn-primary rounded-pill main-btn w-100">graphberry@gmail.com</a>
+                    <ul class="d-flex mt-3 mb-2 pe-0 list-unstyled gap-3 justify-content-center">
+                        <li>
+                            <a href="" class="d-block text-light">
+                                <i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="d-block text-light">
+                                <i class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="d-block text-light">
+                                <i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="d-block text-light">
+                                <i class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-3 justify-content-center align-items-center">
+                    <div class="col-sm-4 col-md-3 d-flex flex-column justify-content-center align-items-center p-0 w-auto">
+                        <i class="fa-brands fa-cc-paypal fs-3 fw-bold text-white"></i>
+                    </div>
+                    <div class="col-sm-4 col-md-3 d-flex flex-column justify-content-center align-items-xl-center p-0 w-auto mx-4">
+                        <i class="fa-brands fa-cc-mastercard fs-3 fw-bold text-white"></i>
+                    </div>
+                    <div class="col-sm-4 col-md-3 d-flex flex-column justify-content-center align-items-center p-0 w-auto">
+                        <i class="fa-brands fa-cc-visa fs-3 fw-bold text-white"></i>
+                    </div>
+                    <div class="col-sm-4 col-md-3 d-flex flex-column justify-content-center align-items-center p-0 w-auto me-4">
+                        <i class="fa-solid fa-hand-holding-dollar fs-3 fw-bold text-white"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
