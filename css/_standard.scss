@@ -3,6 +3,15 @@
     list-style: none;
 }
 
+.txt-rotate{
+    box-shadow: 0 0 3px #1d6a81;
+    background-color: rgb(40 108 130 / 50%);
+    width: fit-content;
+    border: 1px solid #1d6a81;
+    padding: .25rem .5rem;
+    border-radius: 0.375rem;
+}
+
 /* start nav bullets */
 .nav-bullets{
     transform: translateY(-30%);
@@ -16,7 +25,7 @@
         .toolTip{
             background-color: #19687f;
             width: 155px;
-            color: #000000b3;
+            color: #fff;
             right: 30px;
             top: -6px;
             cursor: default;
