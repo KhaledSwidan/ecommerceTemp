@@ -1,0 +1,41 @@
+@media (max-width: 576px){
+    header{
+        .topNav{
+            display: flex !important;
+            flex-direction: column;
+        } 
+    }
+}
+// @media (max-width: 600px){
+//     header .social-icons{display: none !important;}
+// }
+@media (max-width: 767px) {
+    header{
+        .headCar{
+                width: 100% !important;
+                margin: 0 auto !important;
+            .carousel-item {
+                flex-direction: column;
+                padding-top: 0 !important;
+                margin-bottom: 8px;
+                .carCaption{padding-left: .5rem !important;}
+            }
+        }
+        .social-icons{bottom: 5.5rem;}
+    }
+}
+
+@media (max-width: 992px){
+    .main-title{
+        width: 100% !important;
+        .text-end.border.rounded.p-3 {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .footer{
+        .col-sm-6.col-md-3.col-lg-2{width: 50% !important}
+    }
+}
