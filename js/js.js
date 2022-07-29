@@ -1,42 +1,72 @@
+// switch index.html;
+let switchLetter = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
+for (let i = 0; i < switchLetter.length; i++){
+  let swichBrands = document.querySelectorAll(`.switch-brands li`);
+  let gallBoxsBrands = document.querySelectorAll(`.${switchLetter[i]}.box`);
+
+  swichBrands.forEach((li) =>
+  {
+    li.addEventListener("click", function ()
+    {
+      swichBrands.forEach((li) =>
+      {
+        li.classList.remove("active");
+        this.classList.add("active");
+        if (this.classList.contains("active")) {
+          this.classList.add("bg-white");
+          li.classList.remove("bg-white");
+        };
+      });
+    });
+    li.addEventListener("click", function ()
+    {
+      gallBoxsBrands.forEach((gallBoxsBrand) => { gallBoxsBrand.style.display = "none" });
+      document.querySelectorAll(this.dataset.sel).forEach((e) => { e.style.display = "block" });
+    });
+  });
+};
+
+// switch MainSection.html;
 let switchNum = ["one", "two", "three", "four", "five"];
 
 for (let i = 0; i < switchNum.length; i++){
     let swichList = document.querySelectorAll(`.switch-${switchNum[i]} li`);
     let gallBoxs = document.querySelectorAll(`.gall-${switchNum[i]} .gallBoxy`);
 
-    swichList.forEach((li) =>
+  swichList.forEach((li) =>
+  {
+    li.addEventListener("click", function ()
     {
-        li.addEventListener("click", function ()
-        {
-            swichList.forEach((li) =>
-            {
-                li.classList.remove("active");
-                this.classList.add("active");
-                if (this.classList.contains("active")) {
-                    this.classList.add("bg-white");
-                    li.classList.remove("bg-white");
-                }
-            });
-        });
-        li.addEventListener("click", function ()
-        {
-            gallBoxs.forEach((gallBox) => { gallBox.style.display = "none" });
-            document.querySelectorAll(this.dataset.sel).forEach((e) => { e.style.display = "block" });
-        });
+      swichList.forEach((li) =>
+      {
+        li.classList.remove("active");
+        this.classList.add("active");
+        if (this.classList.contains("active")) {
+          this.classList.add("bg-white");
+          li.classList.remove("bg-white");
+        }
+      });
     });
+    li.addEventListener("click", function ()
+    {
+      gallBoxs.forEach((gallBox) => { gallBox.style.display = "none" });
+      document.querySelectorAll(this.dataset.sel).forEach((e) => { e.style.display = "block" });
+    });
+  });
 }
 
 // select all bullets;
 let allBullets = document.querySelectorAll(".nav-bullets .bullet");
 function scrollToSomeWhere(element)
 {
-    element.forEach((ele) =>
+  element.forEach((ele) =>
+  {
+    ele.addEventListener("click", (e) =>
     {
-        ele.addEventListener("click", (e) =>
-        {
-            document.querySelector(e.target.dataset.section).scrollIntoView({ behavior: 'smooth' });
-        })
-    });
+      document.querySelector(e.target.dataset.section).scrollIntoView({ behavior: 'smooth' });
+    })
+  });
 }
 scrollToSomeWhere(allBullets);
 
@@ -58,45 +88,48 @@ searchBtn.addEventListener("click", expand);
 //     العروض والخصومات <i class="fa-solid fa-arrow-left"></i>
 //     <a href="#" class="btn btn-primary d-none d-md-block m-3">اضغط هنا</a>
 // </p>
-let TxtRotate = function (el, toRotate, period)
+class TxtRotate
 {
-    this.el = el;
-    this.toRotate = toRotate;
-    this.period = parseInt(period, 10) || 2000;
-    this.loopNum = 0;
-    this.txt = ``;
-    this.isDeleting = false;
-    this.tick()
-};
+    constructor(el, toRotate, period)
+    {
+        this.el = el;
+        this.toRotate = toRotate;
+        this.period = parseInt(period, 10) || 2000;
+        this.loopNum = 0;
+        this.txt = ``;
+        this.isDeleting = false;
+        this.tick();
+    }
+    tick()
+    {
+        let i = this.loopNum % this.toRotate.length;
+        let fullTxt = this.toRotate[i];
+        if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+        };
+        this.el.innerHTML = `<span class="wrap"><i class="fa-solid fa-arrow-down mt-2 pt-1"></i> ${this.txt} </span>`;
 
-TxtRotate.prototype.tick = function ()
-{
-let i = this.loopNum % this.toRotate.length;
-let fullTxt = this.toRotate[i];
-if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-} else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-};
-this.el.innerHTML = `<span class="wrap"> ${this.txt} </span>`;
+        let that = this;
+        let delta = 300 - Math.random() * 100;
+        if (this.isDeleting) { delta /= 2; }
+        if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === ``) {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+        }
 
-let that = this;
-  let delta = 300 - Math.random() * 100;
-if (this.isDeleting) { delta /= 2; }
-if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-} else if (this.isDeleting && this.txt === ``) {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
+        setTimeout(function ()
+        {
+            that.tick();
+        }, delta);
+    }
 }
 
-setTimeout(function ()
-{
-    that.tick();
-}, delta);
-};
 
 window.onload = function ()
 {
@@ -109,9 +142,8 @@ for (let i = 0; i < elements.length; i++) {
     }
 }
   // INJECT CSS
-let css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-    document.body.appendChild(css);
+// let css = document.createElement("style");
+//     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+//     document.body.appendChild(css);
 };
 // end header typing
