@@ -11,10 +11,10 @@
     .bullet{
         width: 20px;
         height: 20px;
-        border: 3px solid #e46bfa;
+        border: 3px solid #19687f;
         cursor: pointer;
         .toolTip{
-            background-color: #e46bfa;
+            background-color: #19687f;
             width: 155px;
             color: #000000b3;
             right: 30px;
@@ -22,12 +22,12 @@
             cursor: default;
             pointer-events: none;
             font-weight: 500;
-            background-color: rgba(228, 107, 250, 90%);
+            background-color: rgba(25 104 127 / 90%);
             &::before{
                 content: '';
                 position: absolute;
                 border: 10px solid;
-                border-color: transparent transparent transparent #e46bfa;
+                border-color: transparent transparent transparent #19687f;
                 right: -21px;
                 top: 50%;
                 transform: translateY(-50%);
@@ -44,11 +44,13 @@
     width: 50%;
     div{
         transition: all 0.6s ease-in-out;
+        background-color: #e1e1e1;
+        border: 1px solid #fff !important;
         &:hover {
             background-color: rgb(228, 228, 228);
-            border: 1px solid brown !important;
+            border: 1px solid #0d5e8a !important;
             transition: all 0.6s ease-in-out;
-            box-shadow: 0 0 3px brown;
+            box-shadow: 0 0 3px 0d5e8a;
             transform: translateY(-10%);
         }
         // &::after{
