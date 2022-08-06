@@ -1,0 +1,23 @@
+{
+  "name": "prototypeph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js.js",
+  "scripts": {
+    "start": "json-server --watch ./js/db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhaledSwidan/ecommerceTemp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhaledSwidan/ecommerceTemp/issues"
+  },
+  "homepage": "https://github.com/KhaledSwidan/ecommerceTemp#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

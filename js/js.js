@@ -1,35 +1,248 @@
-// switch index.html;
-let switchLetter = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+// brands JSON index.html;https://jsonplaceholder.typicode.com/posts
+let mainOffcanvas = new XMLHttpRequest();
+let allBrands = [];
 
-for (let i = 0; i < switchLetter.length; i++){
-  let swichBrands = document.querySelectorAll(`.switch-brands li`);
-  let gallBoxsBrands = document.querySelectorAll(`.${switchLetter[i]}.box`);
+mainOffcanvas.open("GET", "http://localhost:3000/brands");
+mainOffcanvas.send();
 
-  swichBrands.forEach((li) =>
-  {
-    li.addEventListener("click", function ()
+mainOffcanvas.addEventListener("readystatechange", () =>
+{
+  console.log(mainOffcanvas.readyState);
+  if (mainOffcanvas.readyState == 4 && mainOffcanvas.status == 200) {
+    allBrands = JSON.parse(mainOffcanvas.response);
+    addOffcanvasBrands();
+  }
+}
+);
+
+function addOffcanvasBrands()
+{
+  let cartona = ``;
+
+  for (let i = 0; i < allBrands.length; i++) {
+    cartona += `
+    <div class="${allBrands[i].char} box boxBrand col-sm-6 col-md-4 col-lg-2 my-3 mx-2" data-work="${allBrands[i].brandName}">
+
+      <button class="btn p-0 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom${allBrands[i].num}" aria-controls="offcanvasBottom${allBrands[i].num}">
+      <img class="img-fluid rounded" src="img/${allBrands[i].imgPath}" alt="${allBrands[i].brandName}" style="${allBrands[i].style}">
+      </button>
+
+      <div class="offcanvas offcanvas-bottom h-75" data-bs-scroll="true" tabindex="-1" id="offcanvasBottom${allBrands[i].num}"
+      aria-labelledby="offcanvasBottom${allBrands[i].num}Label">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel${allBrands[i].num}">منتجات ${allBrands[i].brandName}</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body small">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="con col-sm-6 col-md-3 my-2">
+              <div class="card">
+                <img src="img/${allBrands[i].imgPath}" class="card-img-top mx-auto img-fluid" alt="${allBrands[i].brandName}">
+                <div class="card-body">
+                  <h5 class="card-title">${allBrands[i].brandName}</h5>
+                  <p class="card-text">${allBrands[i].brandDetails}</p>
+                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <div class="card-body-options">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">
+                      <p class="fw-bold fs-5">50 EGP</p>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill">اضافه الى السلة</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="con col-sm-6 col-md-3 my-2">
+              <div class="card">
+                <img src="img/${allBrands[i].imgPath}" class="card-img-top mx-auto img-fluid" alt="${allBrands[i].brandName}">
+                <div class="card-body">
+                  <h5 class="card-title">${allBrands[i].brandName}</h5>
+                  <p class="card-text">${allBrands[i].brandDetails}</p>
+                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <div class="card-body-options">
+                    <div class="stars">
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">
+                      <p class="fw-bold fs-5">50 EGP</p>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill">اضافه الى السلة</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="con col-sm-6 col-md-3 my-2">
+              <div class="card">
+                <img src="img/${allBrands[i].imgPath}" class="card-img-top mx-auto img-fluid" alt="${allBrands[i].brandName}">
+                <div class="card-body">
+                  <h5 class="card-title">${allBrands[i].brandName}</h5>
+                  <p class="card-text">${allBrands[i].brandDetails}</p>
+                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <div class="card-body-options">
+                    <div class="stars">
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">
+                      <p class="fw-bold fs-5">50 EGP</p>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill">اضافه الى السلة</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="con col-sm-6 col-md-3 my-2">
+              <div class="card">
+                <img src="img/${allBrands[i].imgPath}" class="card-img-top mx-auto img-fluid" alt="${allBrands[i].brandName}">
+                <div class="card-body">
+                  <h5 class="card-title">${allBrands[i].brandName}</h5>
+                  <p class="card-text">${allBrands[i].brandDetails}</p>
+                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <div class="card-body-options">
+                    <div class="stars">
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">
+                      <p class="fw-bold fs-5">50 EGP</p>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill">اضافه الى السلة</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="con col-sm-6 col-md-3 my-2">
+              <div class="card">
+                <span class="position-relative new-product"></span>
+                <img src="img/${allBrands[i].imgPath}" class="card-img-top mx-auto img-fluid" alt="${allBrands[i].brandName}">
+                <div class="card-body">
+                  <h5 class="card-title">${allBrands[i].brandName}</h5>
+                  <p class="card-text">${allBrands[i].brandDetails}</p>
+                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <div class="card-body-options">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">
+                      <p class="fw-bold fs-5">50 EGP</p>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill">اضافه الى السلة</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="con col-sm-6 col-md-3 my-2">
+              <div class="card">
+                <span class="position-relative limited-amount"></span>
+                <img src="img/${allBrands[i].imgPath}" class="card-img-top mx-auto img-fluid" alt="${allBrands[i].brandName}">
+                <div class="card-body">
+                  <h5 class="card-title">${allBrands[i].brandName}</h5>
+                  <p class="card-text">${allBrands[i].brandDetails}</p>
+                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <div class="card-body-options">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">
+                      <p class="fw-bold fs-5">50 EGP</p>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill">اضافه الى السلة</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="con col-sm-6 col-md-3 my-2">
+              <div class="card">
+                <span class="position-relative sale-price"></span>
+                <img src="img/${allBrands[i].imgPath}" class="card-img-top mx-auto img-fluid" alt="${allBrands[i].brandName}">
+                <div class="card-body">
+                  <h5 class="card-title">${allBrands[i].brandName}</h5>
+                  <p class="card-text">${allBrands[i].brandDetails}</p>
+                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <div class="card-body-options">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">
+                      <p class="fw-bold fs-5">50 EGP</p>
+                    </div>
+                    <button type="button" class="btn btn-primary rounded-pill">اضافه الى السلة</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      `
+  }
+  
+  document.getElementById("boxBrand").innerHTML = cartona;
+  
+  // switch index.html;
+  let switchLetter = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+  for (let i = 0; i < switchLetter.length; i++){
+    let swichBrands = document.querySelectorAll(`.switch-brands li`);
+    let gallBoxsBrands = document.querySelectorAll(`.${switchLetter[i]}.box`);
+    
+    swichBrands.forEach((li) =>
     {
-      swichBrands.forEach((li) =>
+      li.addEventListener("click", function ()
       {
-        li.classList.remove("active");
-        this.classList.add("active");
-        if (this.classList.contains("active")) {
-          this.classList.add("bg-white");
-          li.classList.remove("bg-white");
-        };
+        swichBrands.forEach((li) =>
+        {
+          li.classList.remove("active");
+          this.classList.add("active");
+          if (this.classList.contains("active")) {
+            this.classList.add("bg-white");
+            li.classList.remove("bg-white");
+          };
+        });
+      });
+      
+      li.addEventListener("click", function ()
+      {
+        gallBoxsBrands.forEach((gallBoxsBrand) => { gallBoxsBrand.style.display = "none" });
+        document.querySelectorAll(this.dataset.sel).forEach((e) => { e.style.display = "block" });
       });
     });
-    li.addEventListener("click", function ()
-    {
-      gallBoxsBrands.forEach((gallBoxsBrand) => { gallBoxsBrand.style.display = "none" });
-      document.querySelectorAll(this.dataset.sel).forEach((e) => { e.style.display = "block" });
-    });
-  });
-};
+  }
+}
+//===============================================================================================
 
 // switch MainSection.html;
 let switchNum = ["one", "two", "three", "four", "five"];
-
 for (let i = 0; i < switchNum.length; i++){
     let swichList = document.querySelectorAll(`.switch-${switchNum[i]} li`);
     let gallBoxs = document.querySelectorAll(`.gall-${switchNum[i]} .gallBoxy`);
@@ -55,6 +268,7 @@ for (let i = 0; i < switchNum.length; i++){
     });
   });
 }
+//===============================================================================================
 
 // select all bullets;
 let allBullets = document.querySelectorAll(".nav-bullets .bullet");
@@ -69,25 +283,26 @@ function scrollToSomeWhere(element)
   });
 }
 scrollToSomeWhere(allBullets);
+//===============================================================================================
 
-// search bar animation;
+// search bar animation navBar;
 const input = document.getElementById("search-input");
 const searchBtn = document.getElementById("search-btn");
-
 const expand = () => {
     searchBtn.classList.toggle("close");
     input.classList.toggle("square");
 };
-
 searchBtn.addEventListener("click", expand);
+//===============================================================================================
 
-// start header 
+// start header
 // <p class="txt-rotate d-none d-md-block" data-period="2000"
 // data-rotate='["المكملات الغذائية", "منتجات العناية الشخصية"]'>
 //     <br>
 //     العروض والخصومات <i class="fa-solid fa-arrow-left"></i>
 //     <a href="#" class="btn btn-primary d-none d-md-block m-3">اضغط هنا</a>
 // </p>
+
 class TxtRotate
 {
     constructor(el, toRotate, period)
@@ -129,8 +344,6 @@ class TxtRotate
         }, delta);
     }
 }
-
-
 window.onload = function ()
 {
 let elements = document.getElementsByClassName(`txt-rotate`);
@@ -147,3 +360,15 @@ for (let i = 0; i < elements.length; i++) {
 //     document.body.appendChild(css);
 };
 // end header typing
+
+// const mainOffcanvas = document.querySelectorAll(`.boxBrand`);
+
+// fetch(`http://localhost:3000/brands`)
+//   .then(res => res.json())
+//   .then(json => json.map(
+//     data =>
+//     {
+//       console.log(data);
+//       mainOffcanvas.forEach(e => e.append(addOffcanvasBrands(data)));
+//     }
+//   ));

@@ -59,7 +59,7 @@
             background-color: rgb(228, 228, 228);
             border: 1px solid #0d5e8a !important;
             transition: all 0.6s ease-in-out;
-            box-shadow: 0 0 3px 0d5e8a;
+            box-shadow: 0 0 3px #0d5e8a;
             transform: translateY(-10%);
         }
         // &::after{
@@ -89,3 +89,105 @@ body{background-color: rgb(202, 202, 202);}
 .twitter{background-color: #1da1f2;}
 .linkedin{background-color: #0077b5;}
 .youtube{background-color: #f00;}
+
+// start line crossed price;
+.line-crossed{position: relative;} 
+.line-crossed:before{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 50px;
+    background-color: #000;
+    transform: rotate(76deg);
+    left: 50%;
+    bottom: -10px;
+}
+.line-crossed:after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 50px;
+    background-color: #000;
+    transform: rotate(-76deg);
+    left: 50%;
+    bottom: -10px;
+}
+
+// start sale price;
+.sale-price:before{
+    content: "يوجد خصم حاليا";
+    position: absolute;
+    width: 50px;
+    background-color: rgb(8 66 152 / 90%);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 2;
+    margin: 0 10px;
+    right: 0;
+}
+.sale-price:after{
+    content: "";
+    position: absolute;
+    border: 25px solid;
+    border-color: rgb(8 66 152 / 90%) transparent transparent transparent;
+    right: 10px;
+    top: 115px;
+}
+
+// start limited amount;
+.limited-amount:before{
+    content: "توجد كمية محدودة";
+    position: absolute;
+    width: 66px;
+    background-color: rgb(8 66 152 / 90%);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 2;
+    margin: 0 10px;
+    right: 0;
+}
+.limited-amount:after{
+    content: "";
+    position: absolute;
+    border: 33px solid;
+    border-color: rgb(8 66 152 / 90%) transparent transparent transparent;
+    right: 10px;
+    top: 115px;
+}
+
+// start new product;
+.new-product:before{
+    content: "منتج جديد";
+    position: absolute;
+    width: 46px;
+    background-color: rgb(8 66 152 / 90%);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 2;
+    margin: 0 10px;
+    right: 0;
+}
+.new-product:after{
+    content: "";
+    position: absolute;
+    border: 23px solid;
+    border-color: rgb(8 66 152 / 90%) transparent transparent transparent;
+    right: 10px;
+    top: 77px;
+}
+
+.offcanvas{
+    ::-webkit-scrollbar { width: 15px; }
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #eafaff; 
+        border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #004e68; 
+        border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb:hover { background: #266d84; }
+}

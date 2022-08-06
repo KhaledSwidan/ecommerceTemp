@@ -1,0 +1,693 @@
+{
+  "brands":[
+  {
+    "char":"a",
+    "num":1,
+    "brandName":"ACM",
+    "imgPath":"acm.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"a",
+    "num":2,
+    "brandName":"Aroma",
+    "imgPath":"aroma.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"a",
+    "num":3,
+    "brandName":"Africana",
+    "imgPath":"africana.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"a",
+    "num":4,
+    "brandName":"Argan Z",
+    "imgPath":"arganz.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"a",
+    "num":5,
+    "brandName":"Anivagene",
+    "imgPath":"anivagene.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"a",
+    "num":6,
+    "brandName":"Always",
+    "imgPath":"always.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"a",
+    "num":7,
+    "brandName":"Amma Care",
+    "imgPath":"ammacare.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"a",
+    "num":8,
+    "brandName":"Avene",
+    "imgPath":"avene.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"a",
+    "num":9,
+    "brandName":"Avent",
+    "imgPath":"avent.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"b",
+    "num":10,
+    "brandName":"B.Neotra",
+    "imgPath":"bneotra.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"b",
+    "num":11,
+    "brandName":"Baby Joy",
+    "imgPath":"babyjoy.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"b",
+    "num":12,
+    "brandName":"Bel Clinic",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"b",
+    "num":13,
+    "brandName":"Beurer",
+    "imgPath":"beurer.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"b",
+    "num":14,
+    "brandName":"Bio Balance",
+    "imgPath":"biobalance.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"b",
+    "num":15,
+    "brandName":"Bio Organic",
+    "imgPath":"bioorganic.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"b",
+    "num":16,
+    "brandName":"Bio-Derma",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"b",
+    "num":17,
+    "brandName":"Bless",
+    "imgPath":"bless.png",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"b",
+    "num":18,
+    "brandName":"Braun",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"b",
+    "num":19,
+    "brandName":"Bubblzz",
+    "imgPath":"bubblzz.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"c",
+    "num":20,
+    "brandName":"CHI",
+    "imgPath":"chi.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"c",
+    "num":21,
+    "brandName":"Clean & Clear",
+    "imgPath":"clean&clear.png",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"c",
+    "num":22,
+    "brandName":"Clear",
+    "imgPath":"clear.jpg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"c",
+    "num":23,
+    "brandName":"CLEO",
+    "imgPath":"cleo.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"d",
+    "num":24,
+    "brandName":"Dabur Amla",
+    "imgPath":"daburamla.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"d",
+    "num":25,
+    "brandName":"DAX",
+    "imgPath":"dax.png",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"d",
+    "num":26,
+    "brandName":"Dermatique",
+    "imgPath":"dermatque.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"d",
+    "num":27,
+    "brandName":"Dove",
+    "imgPath":"Dove.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"d",
+    "num":28,
+    "brandName":"Dr Brown",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"d",
+    "num":29,
+    "brandName":"Ducray",
+    "imgPath":"ducray.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"d",
+    "num":30,
+    "brandName":"Durex",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"e",
+    "num":31,
+    "brandName":"Easy Care",
+    "imgPath":"easycare.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"e",
+    "num":32,
+    "brandName":"ECO",
+    "imgPath":"eco.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"e",
+    "num":33,
+    "brandName":"Enliven",
+    "imgPath":"enliven.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"e",
+    "num":34,
+    "brandName":"EVA",
+    "imgPath":"eva.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"f",
+    "num":35,
+    "brandName":"Fine Care",
+    "imgPath":"finecare.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"g",
+    "num":36,
+    "brandName":"Garnier",
+    "imgPath":"garnier.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"g",
+    "num":37,
+    "brandName":"Gillette",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"g",
+    "num":38,
+    "brandName":"GK Keratin",
+    "imgPath":"gk.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"g",
+    "num":39,
+    "brandName":"Gliss",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"g",
+    "num":40,
+    "brandName":"Glysolid",
+    "imgPath":"glysolid.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"h",
+    "num":41,
+    "brandName":"Hayah",
+    "imgPath":"hayah.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"h",
+    "num":42,
+    "brandName":"Head & Shoulders",
+    "imgPath":"head&sholder.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"h",
+    "num":43,
+    "brandName":"Herbal",
+    "imgPath":"herbal.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"i",
+    "num":44,
+    "brandName":"IDEAL",
+    "imgPath":"ideal.png",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"i",
+    "num":45,
+    "brandName":"ISIS",
+    "imgPath":"isis.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"i",
+    "num":46,
+    "brandName":"Infinity",
+    "imgPath":"infinity.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"j",
+    "num":47,
+    "brandName":"J&J",
+    "imgPath":"j&j.gif",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"k",
+    "num":48,
+    "brandName":"Kaminomoto",
+    "imgPath":"kaminomoto.jpg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"k",
+    "num":49,
+    "brandName":"Korloff",
+    "imgPath":"korloff.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"l",
+    "num":50,
+    "brandName":"La Roche",
+    "imgPath":"larocheposay.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"l",
+    "num":51,
+    "brandName":"Labello",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"l",
+    "num":52,
+    "brandName":"LifeBuoy",
+    "imgPath":"lifebuoy.jpg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"l",
+    "num":53,
+    "brandName":"Loreal",
+    "imgPath":"loreal.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"l",
+    "num":54,
+    "brandName":"Lux",
+    "imgPath":"lux.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"m",
+    "num":55,
+    "brandName":"Mustela",
+    "imgPath":"mustela.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"n",
+    "num":56,
+    "brandName":"Neutrogena",
+    "imgPath":"neutgrogena.png",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"n",
+    "num":57,
+    "brandName":"Nike",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"n",
+    "num":58,
+    "brandName":"Nivea",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"n",
+    "num":59,
+    "brandName":"Nuby",
+    "imgPath":"nuby.png",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"n",
+    "num":60,
+    "brandName":"NUXE",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"o",
+    "num":61,
+    "brandName":"OLAY",
+    "imgPath":"olay.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"o",
+    "num":62,
+    "brandName":"ORAL-B",
+    "imgPath":"oralb.png",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"o",
+    "num":63,
+    "brandName":"ORANGE DAILY",
+    "imgPath":"orange.png",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"o",
+    "num":64,
+    "brandName":"ORS",
+    "imgPath":"logo-ors-white.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"o",
+    "num":65,
+    "brandName":"Organic SPA",
+    "imgPath":"OSM.png",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"p",
+    "num":66,
+    "brandName":"Palmer's",
+    "imgPath":"palmers.png",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"p",
+    "num":67,
+    "brandName":"Pampers",
+    "imgPath":"pampers.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"p",
+    "num":68,
+    "brandName":"Pantene",
+    "imgPath":"pantene.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"p",
+    "num":69,
+    "brandName":"Penduline",
+    "imgPath":"pendulene.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"p",
+    "num":70,
+    "brandName":"Pharmaceris",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"p",
+    "num":71,
+    "brandName":"Philips",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"r",
+    "num":72,
+    "brandName":"Rexsol",
+    "imgPath":"rexsol.gif",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"r",
+    "num":73,
+    "brandName":"Rilastil",
+    "imgPath":"rilastil.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"s",
+    "num":74,
+    "brandName":"Sandacare",
+    "imgPath":"sandacare.png",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"s",
+    "num":75,
+    "brandName":"Sanosan",
+    "imgPath":"sansosan.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"s",
+    "num":76,
+    "brandName":"Skin Code",
+    "imgPath":"skincode.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"s",
+    "num":77,
+    "brandName":"Sunsilk",
+    "imgPath":"sunsilk.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"s",
+    "num":78,
+    "brandName":"SVR",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"t",
+    "num":79,
+    "brandName":"Topicrem",
+    "imgPath":"topicream.png",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"t",
+    "num":80,
+    "brandName":"Tresemme",
+    "imgPath":"tresemme.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"t",
+    "num":81,
+    "brandName":"Trichup",
+    "imgPath":"trichup.png",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"u",
+    "num":82,
+    "brandName":"URIAGE",
+    "imgPath":"urage.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"v",
+    "num":83,
+    "brandName":"Vatika",
+    "imgPath":"vatika.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"v",
+    "num":84,
+    "brandName":"VICHY",
+    "imgPath":"title.webp",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  },
+  {
+    "char":"y",
+    "num":85,
+    "brandName":"Yves Rocher",
+    "imgPath":"yv.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022",
+    "style":"background-color: #6f7e0d;"
+  },
+  {
+    "char":"z",
+    "num":86,
+    "brandName":"Zero Frizz",
+    "imgPath":"zerofrez.svg",
+    "brandDetails":"معلومات عن المنتج",
+    "updateTime":"20 / 5 / 2022"
+  }
+]
+}
