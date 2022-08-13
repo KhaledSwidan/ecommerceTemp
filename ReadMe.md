@@ -1,3 +1,11 @@
+<!-- json-server -->
+npm init
+npm i -g json-server
+npm start
+<!--**************************************************************************************-->
+
+
+
 <!-- Note: If you don't want to manually download the package, then you can directly load Owl Carousel CDN files. Put the bellow lines instead of CSS and Javascript tags. -->
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">

@@ -1,3 +1,4 @@
+
 // brands JSON index.html;https://jsonplaceholder.typicode.com/posts
 let mainOffcanvas = new XMLHttpRequest();
 let allBrands = [];
@@ -11,9 +12,12 @@ mainOffcanvas.addEventListener("readystatechange", () =>
   if (mainOffcanvas.readyState == 4 && mainOffcanvas.status == 200) {
     allBrands = JSON.parse(mainOffcanvas.response);
     addOffcanvasBrands();
+    console.log(allBrands);
   }
 }
 );
+
+
 
 function addOffcanvasBrands()
 {
@@ -42,7 +46,7 @@ function addOffcanvasBrands()
                 <div class="card-body">
                   <h5 class="card-title">${allBrands[i].brandName}</h5>
                   <p class="card-text">${allBrands[i].brandDetails}</p>
-                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <p class="card-text"><small class=" ">أخر تحديث ${allBrands[i].updateTime}</small></p>
                   <div class="card-body-options">
                     <div class="stars">
                       <i class="fa-solid fa-star"></i>
@@ -65,7 +69,7 @@ function addOffcanvasBrands()
                 <div class="card-body">
                   <h5 class="card-title">${allBrands[i].brandName}</h5>
                   <p class="card-text">${allBrands[i].brandDetails}</p>
-                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <p class="card-text"><small class=" ">أخر تحديث ${allBrands[i].updateTime}</small></p>
                   <div class="card-body-options">
                     <div class="stars">
                       <i class="fa-regular fa-star"></i>
@@ -88,7 +92,7 @@ function addOffcanvasBrands()
                 <div class="card-body">
                   <h5 class="card-title">${allBrands[i].brandName}</h5>
                   <p class="card-text">${allBrands[i].brandDetails}</p>
-                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <p class="card-text"><small class=" ">أخر تحديث ${allBrands[i].updateTime}</small></p>
                   <div class="card-body-options">
                     <div class="stars">
                       <i class="fa-regular fa-star"></i>
@@ -111,7 +115,7 @@ function addOffcanvasBrands()
                 <div class="card-body">
                   <h5 class="card-title">${allBrands[i].brandName}</h5>
                   <p class="card-text">${allBrands[i].brandDetails}</p>
-                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <p class="card-text"><small class=" ">أخر تحديث ${allBrands[i].updateTime}</small></p>
                   <div class="card-body-options">
                     <div class="stars">
                       <i class="fa-regular fa-star"></i>
@@ -135,7 +139,7 @@ function addOffcanvasBrands()
                 <div class="card-body">
                   <h5 class="card-title">${allBrands[i].brandName}</h5>
                   <p class="card-text">${allBrands[i].brandDetails}</p>
-                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <p class="card-text"><small class=" ">أخر تحديث ${allBrands[i].updateTime}</small></p>
                   <div class="card-body-options">
                     <div class="stars">
                       <i class="fa-solid fa-star"></i>
@@ -159,7 +163,7 @@ function addOffcanvasBrands()
                 <div class="card-body">
                   <h5 class="card-title">${allBrands[i].brandName}</h5>
                   <p class="card-text">${allBrands[i].brandDetails}</p>
-                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <p class="card-text"><small class=" ">أخر تحديث ${allBrands[i].updateTime}</small></p>
                   <div class="card-body-options">
                     <div class="stars">
                       <i class="fa-solid fa-star"></i>
@@ -183,7 +187,7 @@ function addOffcanvasBrands()
                 <div class="card-body">
                   <h5 class="card-title">${allBrands[i].brandName}</h5>
                   <p class="card-text">${allBrands[i].brandDetails}</p>
-                  <p class="card-text"><small class="text-muted">أخر تحديث${allBrands[i].updateTime}</small></p>
+                  <p class="card-text"><small class=" ">أخر تحديث ${allBrands[i].updateTime}</small></p>
                   <div class="card-body-options">
                     <div class="stars">
                       <i class="fa-solid fa-star"></i>

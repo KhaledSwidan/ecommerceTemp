@@ -6,7 +6,16 @@
     "brandName":"ACM",
     "imgPath":"acm.webp",
     "brandDetails":"معلومات عن المنتج",
-    "updateTime":"20 / 5 / 2022"
+    "updateTime":"20 / 5 / 2022",
+    "product_1":[
+      {
+        "product_name": "",
+        "product_img":"",
+        "product_details":"",
+        "product_update":"",
+        "product_price":""
+      }
+    ]
   },
   {
     "char":"a",

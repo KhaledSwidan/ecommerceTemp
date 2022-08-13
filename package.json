@@ -4,20 +4,17 @@
   "description": "",
   "main": "js.js",
   "scripts": {
-    "start": "json-server --watch ./js/db.json"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch ./js/brands.json"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KhaledSwidan/ecommerceTemp.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KhaledSwidan/ecommerceTemp/issues"
   },
-  "homepage": "https://github.com/KhaledSwidan/ecommerceTemp#readme",
-  "dependencies": {
-    "json-server": "^0.17.0"
-  }
+  "homepage": "https://github.com/KhaledSwidan/ecommerceTemp#readme"
 }
