@@ -1,0 +1,23 @@
+.products{
+  background-color: #a3d0e040;
+  .products-types{
+      border: 1px solid brown;
+      border-radius: 0.375rem;
+      background-color: #dfdfdf;
+      .prod{
+          &>button{
+              background-color: #17627a;
+              color: #fff;
+              border-color: #17627a;
+          }
+          .modal-header,
+          .modal-footer{ background-color: #266d84; }
+          .modal-body{ background-color: #92b6c1; }
+      }
+      .noproduct{
+          .modal-header,
+          .modal-footer{ background-color: #266d84; }
+          .modal-body{ background-color: #92b6c1; }
+      }
+  }
+}

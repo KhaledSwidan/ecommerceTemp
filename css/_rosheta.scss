@@ -1,0 +1,28 @@
+.rosheta{
+  background-color: #a3d0e040;
+  .rosheta-types{
+      border: 1px solid brown;
+      border-radius: 0.375rem;
+      .accordion-item{
+          background-color: #e1e1e1 !important;
+          .accordion-header{
+              button{
+                  transition: all .6s ease-in-out;
+                  background-color: rgb(150 191 205 / 90%) !important;
+                  color: #000;
+                  font-weight: bold;
+                  outline: none;
+                  box-shadow: none;
+                  &:hover{
+                      background-color: #286c83 !important;
+                      transition: all .6s ease-in-out;
+                      transform: translateX(-2%);
+                  }
+              }
+          }
+          .accordion-button::after{
+              display: none !important;
+          }
+      }
+  }
+}
