@@ -9,11 +9,39 @@
     "updateTime":"20 / 5 / 2022",
     "product_1":[
       {
-        "product_name": "",
-        "product_img":"",
-        "product_details":"",
-        "product_update":"",
-        "product_price":""
+        "product_name":"ACM 1",
+        "product_img":"acm.webp",
+        "product_details":"معلومات عن المنتج",
+        "product_update":"20 / 5 / 2022",
+        "product_price":"50 EGP"
+      },
+      {
+        "product_name":"ACM 2",
+        "product_img":"acm.webp",
+        "product_details":"معلومات عن المنتج",
+        "product_update":"20 / 5 / 2022",
+        "product_price":"50 EGP"
+      },
+      {
+        "product_name":"ACM 3",
+        "product_img":"acm.webp",
+        "product_details":"معلومات عن المنتج",
+        "product_update":"20 / 5 / 2022",
+        "product_price":"50 EGP"
+      },
+      {
+        "product_name":"ACM 4",
+        "product_img":"acm.webp",
+        "product_details":"معلومات عن المنتج",
+        "product_update":"20 / 5 / 2022",
+        "product_price":"50 EGP"
+      },
+      {
+        "product_name":"ACM 5",
+        "product_img":"acm.webp",
+        "product_details":"معلومات عن المنتج",
+        "product_update":"20 / 5 / 2022",
+        "product_price":"50 EGP"
       }
     ]
   },
@@ -697,6 +725,83 @@
     "imgPath":"zerofrez.svg",
     "brandDetails":"معلومات عن المنتج",
     "updateTime":"20 / 5 / 2022"
+  }
+],
+"formulas":[
+  {
+    "num":"one",
+    "formula_name":"1 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"two",
+    "formula_name":"2 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"three",
+    "formula_name":"3 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"four",
+    "formula_name":"4 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"five",
+    "formula_name":"5 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"six",
+    "formula_name":"6 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"seven",
+    "formula_name":"7 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"eight",
+    "formula_name":"8 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"nine",
+    "formula_name":"9 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"ten",
+    "formula_name":"10 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"eleven",
+    "formula_name":"11 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"twelve",
+    "formula_name":"12 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"thirteen",
+    "formula_name":"13 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"fourteen",
+    "formula_name":"14 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
+  },
+  {
+    "num":"fifteen",
+    "formula_name":"15 اسم التركيبة",
+    "formula_details":"توضيح عن المنتج وشرح مبسط"
   }
 ]
 }

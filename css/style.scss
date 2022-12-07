@@ -142,10 +142,10 @@ header{
     }
     .headCar{
         .page-index{
-          p{
-              z-index: 3;
-              svg{
-                  animation: carCaptionArr 1s linear infinite;
+            p{
+                z-index: 3;
+                svg{
+                    animation: carCaptionArr 1s linear infinite;
                   @keyframes carCaptionArr {
                       0%{transform: translateY(0px);}
                       10%{transform: translateY(-2px);}
@@ -172,7 +172,7 @@ header{
             }
           }
         }
-    }
+      }
 
 .about-us{
   background-color: #a3d0e040;
@@ -357,6 +357,21 @@ header{
         border: 1px solid brown;
         border-radius: 0.375rem;
         background-color: #dfdfdf;
+        .prod{
+            &>button{
+                background-color: #17627a;
+                color: #fff;
+                border-color: #17627a;
+            }
+            .modal-header,
+            .modal-footer{ background-color: #266d84; }
+            .modal-body{ background-color: #92b6c1; }
+        }
+        .noproduct{
+            .modal-header,
+            .modal-footer{ background-color: #266d84; }
+            .modal-body{ background-color: #92b6c1; }
+        }
     }
 }
 
@@ -431,4 +446,29 @@ header{
 
 .footer{
     background-color: rgb(0 0 0 / 80%);
+    .links{
+        ul{
+            li{
+                position: relative;
+                cursor: pointer;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    height: 50%;
+                    width: 2px;
+                    background-color: #02b9b2;
+                    transform: translateY(50%);
+                    right: -8px;
+                }
+                &:hover a{
+                    border-radius: 0.375rem;
+                    transition: right 0.3s ease-in-out;
+                    background-color: #16617a;
+                    padding: 0.2rem 0.3rem;
+                    color: #e6e6e6 !important;
+                }
+                &:hover:before{ background-color: #008000; }
+            }
+        }
+    }
 }
