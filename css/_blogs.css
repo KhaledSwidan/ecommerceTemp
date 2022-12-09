@@ -1,0 +1,19 @@
+.blog{background-color: #a3d0e040;}
+.mainTopics h2{
+  position: sticky;
+  top: 1rem;
+  background-color: rgb(150 191 205 / 90%);
+  z-index: 1;
+}
+.card{transition: all .6s ease-in-out;}
+.card:hover{
+  transition: all .6s ease-in-out;
+  transform: translateY(-5px);
+  background-color: rgb(228, 228, 228);
+  box-shadow: 0 0 5px #fff;
+}
+.navblog ul{
+  box-shadow: 0 0 3px #19647c;
+  border-radius: .375rem;
+}
+.navblog li link.active{background-color: #19647c !important;}

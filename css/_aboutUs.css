@@ -1,0 +1,24 @@
+.aboutUs{background-color: #a3d0e040;}
+.iconHolder{height: 200px;}
+.iconHolder i{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.feat{
+  border: 1px solid #19647c !important;
+  border-radius: 0.375rem;
+  box-shadow: 0px 0px 1px 0px #000;
+  background-color: rgb(87 142 161 / 60%);
+  transition: all .6s ease-in-out;
+}
+.feat .icon{
+  font-size: 8rem !important;
+  color: #19647c !important;
+  transition: all .6s ease-in-out;
+}
+.feat:hover .icon{
+  transition: all .6s ease-in-out;
+  color: #fff !important;
+}
+.feat h4{color: #000;}
+.feat p{color: #444a4f !important;}

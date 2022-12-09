@@ -1,0 +1,30 @@
+.footer{background-color: rgb(0 0 0 / 80%);}
+.links ul li{
+  position: relative;
+  cursor: pointer;
+}
+.links ul li:before{
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 2px;
+  background-color: #02b9b2;
+  transform: translateY(50%);
+  right: -8px;
+}
+.links ul li:hover::before{background-color: #008000;}
+.links ul li:hover a{
+  border-radius: 0.375rem;
+  transition: right 0.3s ease-in-out;
+  background-color: #16617a;
+  padding: 0.2rem 0.3rem;
+  color: #e6e6e6 !important;
+}
+.facebook{background-color: #1877f2;}
+.facebook:hover{box-shadow: 0 0 10px #1877f2;}
+.twitter{background-color: #1da1f2;}
+.twitter:hover{box-shadow: 0 0 10px #1da1f2;}
+.linkedin{background-color: #0a66c2;}
+.linkedin:hover{box-shadow: 0 0 10px #0a66c2;}
+.youtube{background-color: #f00;}
+.youtube:hover{box-shadow: 0 0 10px #f00;}

@@ -1,0 +1,20 @@
+.mainTitle{width: 70%;}
+.mainTitleDiv{
+  transition: all 0.6s ease-in-out;
+  background-color: #e1e1e1;
+  border: 1px solid #0d5e8a !important;
+}
+.mainTitleDiv:hover{
+  background-color: rgb(228, 228, 228);
+  border: 1px solid #0d5e8a !important;
+  transition: all 0.6s ease-in-out;
+  box-shadow: 0 0 3px #0d5e8a;
+  transform: translateY(-10%);
+}
+.rotatImg{
+  animation: rotate 3s ease-in-out infinite;;
+}
+@keyframes rotate{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
